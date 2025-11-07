@@ -1,0 +1,28 @@
+.publications {
+  max-width: 700px;
+  margin: 3rem auto;
+}
+
+.publications__title {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.publications__list {
+  list-style: none;
+  padding: 0;
+}
+
+.publications__item {
+  background-color: #fff;
+  margin-bottom: 0.8rem;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+  transition: transform 0.3s;
+}
+
+.publications__item:hover {
+  transform: translateY(-3px);
+}

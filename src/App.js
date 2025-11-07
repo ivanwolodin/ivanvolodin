@@ -1,33 +1,24 @@
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
+import Home from './pages/Home/Home';
+import Publications from './pages/Publications/Publications';
+import Talks from './pages/Talks/Talks';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="Header">
-        <h1 className="Name">Иван Володин</h1>
-        <h2 className="Subtitle">Разработчик · Исследователь · Физик</h2>
-      </header>
-
-      <main className="Content">
-        <p>
-          Добро пожаловать на мой персональный сайт. Здесь я делюсь своими проектами, идеями и
-          исследованиями в области вычислительной физики и программирования.
-        </p>
-
-        <div className="Links">
-          <a href="https://github.com/ivanwolodin1" target="_blank" rel="noopener noreferrer">
-            GitHub { }
-          </a>
-          <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
-            LinkedIn { }
-          </a>
-          <a href="mailto:ivanwolodin@proton.me">Email { }</a>
-        </div>
+    <div className="app">
+      <Header />
+      <main className="app__content">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/publications" element={<Publications />} />
+          <Route path="/talks" element={<Talks />} />
+        </Routes>
       </main>
-
-      <footer className="Footer">
-        <p>© {new Date().getFullYear()} Иван Володин. Все права защищены.</p>
-      </footer>
+      <Footer />
     </div>
   );
 }

@@ -1,0 +1,38 @@
+.contacts {
+  padding: 40px 20px;
+}
+
+.contacts__container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contacts__title {
+  font-size: 32px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.contacts__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contacts__item {
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.contacts__label {
+  font-weight: 500;
+}
+
+.contacts__link {
+  color: #007acc;
+  text-decoration: none;
+}
+
+.contacts__link:hover {
+  text-decoration: underline;
+}

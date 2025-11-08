@@ -1,0 +1,37 @@
+{
+  "header": {
+    "title": "Ivan Volodin",
+    "subtitle": "Developer · Researcher · Physicist",
+    "nav": { "home": "Home", "publications": "Publications", "talks": "Talks" }
+  },
+  "footer": { "text": "© {{year}} Ivan Volodin · Made with love for physics and code ⚛️" },
+  "home": {
+    "welcome": "Welcome",
+    "text1": "I explore physical phenomena and create software solutions for modeling and data analysis.",
+    "text2": "On this site you can find my publications, talks, and projects."
+  },
+  "publications": {
+    "title": "Publications",
+    "items": [
+      {
+        "id": "pub1",
+        "title": "Hydrodynamic stability of thin films",
+        "journal": "Journal of Fluid Physics, 2024",
+        "description": "This paper studies the stability of thin liquid films using computational models."
+      },
+      {
+        "id": "pub2",
+        "title": "Turbulence modeling in thin layers",
+        "journal": "Theoretical Hydrodynamics, 2023",
+        "description": "The article is devoted to modeling turbulent processes in thin liquid layers using CFD methods."
+      }
+    ]
+  },
+  "talks": {
+    "title": "Talks",
+    "items": [
+      { "id": "talk1", "title": "Turbulence and films — Perm Conference, 2023" },
+      { "id": "talk2", "title": "Fluid flow models — Moscow Seminar, 2024" }
+    ]
+  }
+}

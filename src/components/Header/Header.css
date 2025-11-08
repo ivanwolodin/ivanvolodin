@@ -85,3 +85,34 @@
   color: #007bff;
   transform: translateY(-2px);
 }
+
+/* Адаптивность для меню */
+@media (max-width: 700px) {
+  .header {
+    padding: 1.5rem 1rem;
+  }
+
+  .header__title {
+    font-size: 1.8rem;
+  }
+
+  .header__subtitle {
+    font-size: 0.9rem;
+  }
+
+  .header__nav {
+    flex-direction: column;       /* ✅ превращаем меню в столбик */
+    align-items: center;
+    gap: 1rem;                    /* чуть меньше расстояние между пунктами */
+    margin-bottom: 1.2rem;
+  }
+
+  .header__link {
+    font-size: 1.1rem;            /* чуть больше шрифт для читаемости */
+  }
+
+  .header__icons {
+    flex-wrap: wrap;              /* чтобы иконки тоже могли переноситься */
+    gap: 0.8rem;
+  }
+}

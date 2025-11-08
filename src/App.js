@@ -5,6 +5,8 @@ import Footer from './components/Footer/Footer';
 import Home from './pages/Home/Home';
 import Publications from './pages/Publications/Publications';
 import Talks from './pages/Talks/Talks';
+import AboutMe from './pages/AboutMe/AboutMe';
+import Contacts from './pages/Contacts/Contacts';
 import './App.css';
 
 function App() {
@@ -16,6 +18,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/publications" element={<Publications />} />
           <Route path="/talks" element={<Talks />} />
+          <Route path="/about-me" element={<AboutMe />} />
+          <Route path="/contacts" element={<Contacts />} />
         </Routes>
       </main>
       <Footer />

@@ -1,11 +1,13 @@
 import React from 'react';
+import { useTranslation } from "react-i18next";
 import './Contacts.css';
 
 function Contacts() {
+  const { t } = useTranslation();
   return (
     <section className="contacts">
       <div className="contacts__container">
-        <h1 className="contacts__title">Контакты</h1>
+        <h1 className="contacts__title">{t("contacts")}</h1>
         <ul className="contacts__list">
           <li className="contacts__item">
             <span className="contacts__label">Email:</span>{' '}

@@ -1,10 +1,17 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import { useTranslation } from "react-i18next";
 import { Github, Linkedin, Mail, Cloud, BookOpen } from 'lucide-react';
 import './Header.css';
 
 function Header() {
   const location = useLocation();
+
+  const { t, i18n } = useTranslation();
+
+  const changeLanguage = (lang) => {
+    i18n.changeLanguage(lang);
+  };
 
   // Функция для подсветки активного пункта
   const getLinkClass = (path) =>
@@ -14,24 +21,32 @@ function Header() {
     <header className="header">
       <div className="header__top">
         <div className="header__info">
-          <h1 className="header__title">Иван Володин</h1>
-          <p className="header__subtitle">Младшний научный сотрудник (ИМСС УрО РАН)</p>
+          <h1 className="header__title">{t("header.title")}</h1>
+          <p className="header__subtitle">{t("header.position")}</p>
         </div>
-
-        {/* 🔤 Переключатель языка */}
         <div className="header__lang">
-          <button className="header__lang-btn header__lang-btn_active">Ru</button>
+          <button
+            className={`header__lang-btn ${i18n.language === "ru" ? "header__lang-btn_active" : ""}`}
+            onClick={() => changeLanguage("ru")}
+          >
+            Ru
+          </button>
           <span>/</span>
-          <button className="header__lang-btn">En</button>
+          <button
+            className={`header__lang-btn ${i18n.language === "en" ? "header__lang-btn_active" : ""}`}
+            onClick={() => changeLanguage("en")}
+          >
+            En
+          </button>
         </div>
       </div>
 
       <nav className="header__nav">
-        <Link to="/" className={getLinkClass('/')}>Главная</Link>
-        <Link to="/about-me" className={getLinkClass('/about-me')}>Обо мне</Link>
-        <Link to="/publications" className={getLinkClass('/publications')}>Публикации</Link>
-        <Link to="/talk" className={getLinkClass('/talk')}>Выступления</Link>
-        <Link to="/contact" className={getLinkClass('/contact')}>Контакты</Link>
+        <Link to="/" className={getLinkClass('/')}>{t("header.nav.home")} </Link>
+        <Link to="/about-me" className={getLinkClass('/about-me')}>{t("header.nav.about")}</Link>
+        <Link to="/publications" className={getLinkClass('/publications')}>{t("header.nav.publications")}</Link>
+        <Link to="/talk" className={getLinkClass('/talk')}>{t("header.nav.talks")}</Link>
+        <Link to="/contact" className={getLinkClass('/contact')}>{t("header.nav.contacts")}</Link>
       </nav>
 
       {/* <div className="header__icons">

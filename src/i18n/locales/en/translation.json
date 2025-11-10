@@ -1,10 +1,16 @@
 {
   "header": {
     "title": "Ivan Volodin",
-    "subtitle": "Developer · Researcher · Physicist",
-    "nav": { "home": "Home", "publications": "Publications", "talks": "Talks" }
+    "position": "Junior scientific researcher (ICMM UB RAS)",
+    "nav": { 
+      "home": "Home", 
+      "publications": "Publications", 
+      "talks": "Presentations",
+      "about": "About me",
+      "contacts": "Contacts"
+    }
   },
-  "footer": { "text": "© {{year}} Ivan Volodin · Made with love for physics and code ⚛️" },
+  "footer": { "text": "© Ivan Volodin · Some rights reserved" },
   "home": {
     "welcome": "Welcome",
     "text1": "I explore physical phenomena and create software solutions for modeling and data analysis.",
@@ -33,5 +39,6 @@
       { "id": "talk1", "title": "Turbulence and films — Perm Conference, 2023" },
       { "id": "talk2", "title": "Fluid flow models — Moscow Seminar, 2024" }
     ]
-  }
+  },
+  "contacts": "Contacts"
 }

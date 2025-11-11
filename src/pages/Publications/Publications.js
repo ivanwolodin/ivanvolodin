@@ -1,24 +1,13 @@
 import React, { useState, useEffect } from 'react';
-import './Publications.css';
+import { FaFilePdf } from 'react-icons/fa';
+import { useTranslation } from "react-i18next";
 
-const publicationsData = [
-  {
-    id: 'pub1',
-    title: 'Гидродинамическая устойчивость тонких плёнок',
-    journal: 'Журнал Физики Жидкости, 2024',
-    description: 'В этой статье исследуется устойчивость тонких плёнок жидкости на основе вычислительных моделей. Приводятся результаты численного моделирования и экспериментальных наблюдений.'
-  },
-  {
-    id: 'pub2',
-    title: 'Моделирование турбулентности в тонких слоях',
-    journal: 'Теоретическая Гидродинамика, 2023',
-    description: 'Статья посвящена моделированию турбулентных процессов в тонких жидкостных слоях с использованием методов CFD. Обсуждаются влияние вязкости и граничных условий на стабильность течений.'
-  }
-];
+import './Publications.css';
 
 function Publications() {
   const [openId, setOpenId] = useState(null);
-
+  const { t } = useTranslation();
+  
   // Проверка якоря при заходе на страницу
   useEffect(() => {
     const hash = window.location.hash.slice(1); // убираем #
@@ -36,11 +25,14 @@ function Publications() {
     window.history.replaceState(null, '', `#${id}`);
   };
 
+  const publications = t('publications.items', { returnObjects: true });
+
+
   return (
     <section className="publications">
       <h2 className="publications__title">Публикации</h2>
       <ul className="publications__list">
-        {publicationsData.map(pub => (
+        {publications.map(pub => (
           <li
             key={pub.id}
             id={pub.id}
@@ -48,11 +40,43 @@ function Publications() {
             onClick={() => toggleOpen(pub.id)}
           >
             <div className="publications__header">
-              {pub.title} — <span className="publications__journal">{pub.journal}</span>
+              <span className="publications__title-text">{pub.title}</span>
+              {' — '}
+              <span className="publications__journal">{pub.journal}</span>
             </div>
+
             {openId === pub.id && (
-              <div className="publications__description">
-                {pub.description}
+              <div className="publications__details">
+                <p className="publications__description">{pub.description}</p>
+                {pub.abstract && (
+                  <p className="publications__abstract">
+                    <strong>Аннотация: </strong>{pub.abstract}
+                  </p>
+                )}
+                <div className="publications__links">
+                  {pub.doi && (
+                    <a
+                      href={`https://doi.org/${pub.doi}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="publications__doi"
+                    >
+                      DOI: {pub.doi}
+                    </a>
+                  )}
+                  {pub.pdf && (
+                    <a
+                      href={pub.pdf}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="publications__pdf"
+                      title="Скачать PDF"
+                      onClick={(e) => e.stopPropagation()}
+                    >
+                      <FaFilePdf size={18} />
+                    </a>
+                  )}
+                </div>
               </div>
             )}
           </li>

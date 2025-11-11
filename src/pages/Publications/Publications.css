@@ -48,3 +48,75 @@
 .publications__item_open {
   background-color: #f0f8ff;
 }
+
+.publications {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.publications__title {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.publications__list {
+  list-style: none;
+  padding: 0;
+}
+
+.publications__item {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 12px;
+  background: #f8f9fa;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.publications__item:hover {
+  background: #eef1f5;
+}
+
+.publications__item_open {
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.publications__header {
+  font-weight: 600;
+  color: #333;
+}
+
+.publications__journal {
+  color: #777;
+}
+
+.publications__description,
+.publications__abstract {
+  margin-top: 0.8rem;
+  color: #444;
+  line-height: 1.5;
+}
+
+.publications__links {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.publications__doi {
+  color: #0056b3;
+  text-decoration: none;
+}
+
+.publications__doi:hover {
+  text-decoration: underline;
+}
+
+.publications__pdf {
+  color: #d9534f;
+  text-decoration: none;
+}

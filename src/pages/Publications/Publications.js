@@ -30,9 +30,9 @@ function Publications() {
 
   return (
     <section className="publications">
-      <h2 className="publications__title">Публикации</h2>
+      <h2 className="publications__title">{t('publications.title')}</h2>
       <ul className="publications__list">
-        {publications.map(pub => (
+        {publications.slice().reverse().map(pub => (
           <li
             key={pub.id}
             id={pub.id}
@@ -50,7 +50,7 @@ function Publications() {
                 <p className="publications__description">{pub.description}</p>
                 {pub.abstract && (
                   <p className="publications__abstract">
-                    <strong>Аннотация: </strong>{pub.abstract}
+                    <strong>{t('publications.abstract')}: </strong>{pub.abstract}
                   </p>
                 )}
                 <div className="publications__links">

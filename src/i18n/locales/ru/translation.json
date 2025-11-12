@@ -18,23 +18,47 @@
   },
   "publications": {
     "title": "Публикации",
+    "abstract": "Аннотация",
     "items": [
     {
       "id": "pub1",
-      "title": "Гидродинамическая устойчивость тонких плёнок",
-      "journal": "Журнал Физики Жидкости, 2024",
-      "description": "В этой статье исследуется устойчивость тонких плёнок жидкости на основе вычислительных моделей.",
-      "abstract": "Проведено численное исследование устойчивости тонких жидкостных плёнок при различных граничных условиях. Показано, что критическая толщина зависит от поверхностного натяжения и вязкости.",
-      "doi": "10.1234/fluidphys.2024.001"
+      "title": "Моделирование квазистационарного рельефа методом решеточных уравнений Больцмана",
+      "journal": "Вестник Пермского университета. Физика – №1 (2021)",
+      "description": "Методом решеточных уравнений Больцмана моделируется квазистационарный рельеф в двухкомпонентной среде несмешивающихся жидкостей при касательных вибрациях.",
+      "abstract": "Исследуется поведение двухслойной системы несмешивающихся жидкостей под действием горизонтальных линейных вибраций в поле тяжести. Задача решается численно методом решеточных уравнений Больцмана. Для описания двухфазной системы используется модель HCZ, которая позволяет описать поверхность раздела двух жидкостей. Рассматриваются два типа граничных условий на боковых поверхностях: периодические – замкнутая (кольцевая) область для сравнения с аналитическими результатами и условие прилипания для сравнения с экспериментами. Показано наличие квазистационарного рельефа на поверхности раздела жидкостей. Изучено существование рельефа в зависимости от вязкостей жидкостей.",
+      "doi": "10.17072/1994-3598-2021-1-59-68"
     },
     {
       "id": "pub2",
-      "title": "Моделирование турбулентности в тонких слоях",
-      "journal": "Теоретическая Гидродинамика, 2023",
-      "description": "Статья посвящена моделированию турбулентных процессов в тонких жидкостных слоях с использованием методов CFD.",
-      "abstract": "Работа описывает методику моделирования перехода к турбулентности в тонких слоях жидкости с использованием метода конечных элементов и анализа спектра возмущений.",
-      "doi": "10.5678/theorhydro.2023.015",
-      "pdf": "/pdfs/turbulence_modeling.pdf"
+      "title": "Linear Instability of Forced Oscillations of a Thin Ferrofluid Film in a Vertical Magnetic Field",
+      "journal": "Microgravity Science and Technology – Vol. 34, article 5 (2022)",
+      "description": "Исследуется устойчивость тонкой плёнки феррожидкости при вертикальных вибрациях в стационарном магнитном поле.",
+      "abstract": "A horizontal thin ferrofluid film on a vertically oscillating substrate under the vertical static magnetic field is investigated. Longitudinal size is much greater than the vertical size, which allows using lubrication approximation. The amplitude of external vibrations is much greater than the thickness of a thin film. The moderate vibrational frequency is not asymptotic parameter. In the framework of the averaging method the original equations are represented as the sum of averaged and pulsation flows. The solution of the pulsation part in the analytical form is obtained and the solution is found for the traveling surface wave. It is shown that parametric instability does exist, but not necessary in the longwavelength limit. The linear stability of average flow are studied. It is found that that magnetic field contributes to the instability development, whereas vibrations stabilize the surface.",
+      "doi": "10.1007/s12217-022-10014-z"
+    },
+    {
+      "id": "pub3",
+      "title": "Численное моделирование течения в двухслойном пористом канале методом решеточных уравнений Больцмана",
+      "journal": "Вестник Пермского университета. Физика – №1 (2025)",
+      "description": "Численно методом решеточных уравнений Больцмана проведено моделирование течения в наклоненном пористом канале.",
+      "abstract": "Численно исследовано течение вязкой жидкости в поле тяжести в наклоненном двухслойном канале конечной ширины, который наполовину заполнен пористой средой. Моделирование проводилось в широком диапазоне чисел Дарси и чисел Рейнольдса. Коэффициент пористости среды считается однородным и постоянным. Задача решалась методом решеточных уравнений Больцмана. Для моделирования течения в пористой среде использовался метод репрезентативного элементарного объема. Верификация численной схемы проводилась на двух видах граничных условий на верхней границе – твердой и свободной недеформируемой границе. Показано, что метод хорошо воспроизводит характеристики течения в случае заданного значения коэффициента пористости в сравнении с результатами, полученными методом конечных разностей. Увеличение ширины канала приводит к более интенсивному течению, то есть к росту числа Рейнольдса, и, при дальнейшем увеличении, происходит развитие неустойчивости Кельвина-Гельмгольца.",
+      "doi": "10.17072/1994-3598-2025-1-52-62"
+    },
+    {
+      "id": "pub4",
+      "title": "Mass Transfer Simulation In An Inclined Two-Layer Porous Channel By The Lattice Boltzmann Method",
+      "journal": "Microgravity Science and Technology – Vol. 37, article 47 (2025)",
+      "description": "При помощи LBM моделируется массоперенос в пористом наклоненном канале.",
+      "abstract": "The study numerically investigates the mass transfer in an inclined two-layer porous channel in the gravitational field. The lower region of the channel is occupied by a porous medium, while the upper region consists of a pure fluid. The initial concentration distribution is such that the impurity is localized in the central part of the porous domain. The upper and lower walls of the channel are solid and no-flux boundary condition for the concentration is applied. Periodic boundary conditions are applied for the velocity field on the side walls, and the flow is driven by the longitudinal component of the velocity induced by the gravitational field and channel inclination. For the concentration field two boundary condition types are examined on the side walls: periodic boundary conditions, and a non-periodic characterized by a vanishing concentration at the left wall and a constant flux condition at the right wall. The problem is solved for constant porosity and permeability coefficients, with the Schmidt number fixed at Sc^3. The study focuses on the diffusion of an impurity into a viscous pure fluid for various Darcy numbers (Da). The simulations are conducted using the Lattice Boltzmann Method (LBM) on a D2Q9 lattice. A modified multiple relaxation-time (MRT) LBM scheme was introduced for the mass transfer simulation in porous media. The effectiveness and applicability of the proposed scheme for such classes of problems are substantiated through the presented results. For the periodic boundary conditions, it is shown that the integral concentration within the domain is conserved, and the concentration profiles both inside and outside the porous layer converge toward the average value. In contrast, under non-periodic boundary conditions, the impurity is gradually washed out of the domain. The obtained numerical results also demonstrate that the type of boundary condition imposed on the concentration field at the side walls has a negligible effect on the velocity field. At a higher Darcy number Da=10^-2, the evolution of the impurity is more pronounced, and the system reaches a steady state more rapidly. For lower Darcy numbers (Da=10^-3 and Da=10^-4), the impurity evolution rate outside the porous matrix is approximately the same, whereas within the porous matrix, the evolution is more intense for larger Darcy numbers.",
+      "doi": "10.1007/s12217-025-10200-9"
+    },
+    {
+      "id": "pub5",
+      "title": "Linear Stability of Marangoni Convection in a Thin Film under Vertical Vibrations",
+      "journal": "Microgravity Science and Technology – Vol. 37, article 48 (2025)",
+      "description": "Исследуется устойчивость тонких плёнок жидкости при вертикальных вибрациях и нагреве снизу.",
+      "abstract": "We investigate the linear stability of an incompressible, viscous liquid thin film placed on a solid substrate subjected to vertical harmonic vibrations in the presence of gravity and a negative temperature gradient. The substrate oscillates with a finite frequency, compared to the viscous time and large amplitude, compared to the film thickness. By separating the governing equations into oscillatory (fast) and time-averaged (slow) components, we obtain an analytical solution for the oscillatory fields and represent their velocity structure through isolines of stream function. Averaging over the fast time scale yields a set of amplitude equations that describe the slow evolution of the free deformable surface. The stability analysis reveals that gravity and surface tension stabilise the interface, while van der Waals attraction and the imposed thermal gradient destabilise. Vertical vibrations may stabilise the surface: at low frequencies even large amplitudes fail to suppress the long-wave instability for moderate and high Marangoni numbers, whereas at moderate to high frequencies sufficiently strong vibrations stabilise the film across the entire wavenumber spectrum. For a huge values of Marangoni number small vibrations are ineffective, but when Marangoni number is small complete stabilisation is achieved at moderate frequencies for all amplitudes considered. Results obtained in limiting cases are consistent with the previous studies for isothermal and non-vibrated cases.",
+      "doi": "10.1007/s12217-025-10201-8"
     }
   ]
   },

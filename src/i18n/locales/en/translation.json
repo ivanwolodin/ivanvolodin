@@ -18,19 +18,48 @@
   },
   "publications": {
     "title": "Publications",
+    "abstract": "Abstract",
     "items": [
-      {
-        "id": "pub1",
-        "title": "Hydrodynamic stability of thin films",
-        "journal": "Journal of Fluid Physics, 2024",
-        "description": "This paper studies the stability of thin liquid films using computational models."
-      },
-      {
-        "id": "pub2",
-        "title": "Turbulence modeling in thin layers",
-        "journal": "Theoretical Hydrodynamics, 2023",
-        "description": "The article is devoted to modeling turbulent processes in thin liquid layers using CFD methods."
-      }
+    {
+      "id": "pub1",
+      "title": "Frozen wave simulation by the lattice Boltzmann method [In Russian]",
+      "journal": "Bulletin of Perm University. Physics – №1 (2021)",
+      "description": "The lattice Boltzmann method is used to model a quasi-stationary relief in a two-component system of immiscible fluids under tangential vibrations.",
+      "abstract": "The dynamics of two-layer system of immiscible liquids under the action of horizontal linear vibrations in the field of gravity was investigated. The numerical simulation was carried out by the lattice Boltzmann method (LBM) with model D2Q9. For the first time LBM was used to achieve the appearance of frozen wave (quasi-stationary relief) at the interface of two fluids. There are two types of boundary conditions for the sidewalls: a periodic condition for comparison with analytical results and no-slip condition for comparison with experiments. Various computational domains were considered. Both cases with the same viscosities of both phases and different viscosity ratios were studied. HCZ model was used to describe two-phase system and the interface of two liquids. The presence of a frozen wave on the interface of liquids was found. The dependence of liquids viscosity on the relief was studied. The obtained critical wave number coincides well with the theoretically predicted value for liquids with the equal viscosity and vanishing viscosity. The results of numerical calculations show a weak viscosity effect for a more viscous lower liquid. However, the destabilizing effect of viscosity is more significant for a more viscous upper liquid.",
+      "doi": "10.17072/1994-3598-2021-1-59-68"
+    },
+    {
+      "id": "pub2",
+      "title": "Linear Instability of Forced Oscillations of a Thin Ferrofluid Film in a Vertical Magnetic Field",
+      "journal": "Microgravity Science and Technology – Vol. 34, article 5 (2022)",
+      "description": "The stability of a thin ferrofluid film under vertical vibrations in a steady magnetic field is investigated.",
+      "abstract": "A horizontal thin ferrofluid film on a vertically oscillating substrate under the vertical static magnetic field is investigated. Longitudinal size is much greater than the vertical size, which allows using lubrication approximation. The amplitude of external vibrations is much greater than the thickness of a thin film. The moderate vibrational frequency is not asymptotic parameter. In the framework of the averaging method the original equations are represented as the sum of averaged and pulsation flows. The solution of the pulsation part in the analytical form is obtained and the solution is found for the traveling surface wave. It is shown that parametric instability does exist, but not necessary in the longwavelength limit. The linear stability of average flow are studied. It is found that that magnetic field contributes to the instability development, whereas vibrations stabilize the surface.",
+      "doi": "10.1007/s12217-022-10014-z"
+    },
+    {
+      "id": "pub3",
+      "title": "Numerical simulation of the flow in a two-layer porous channel by the lattice Boltzmann method [In Russian]",
+      "journal": "Bulletin of Perm University. Physics – №1 (2025)",
+      "description": "The flow in an inclined porous channel has been numerically simulated using the lattice Boltzmann method.",
+      "abstract": "We have numerically investigated the flow of a viscous fluid in a gravitational field within an inclined two-layer channel of finite width, half-filled with a porous medium. The simulation was carried out over a wide range of Darcy and Reynolds numbers. The porosity coefficient of the medium was assumed to be homogeneous and constant. The problem was solved using the lattice Boltzmann method. The representative elementary volume (REV) method was used to simulate the flow in the porous medium. To verify the numerical scheme, two types of boundary conditions were applied at the upper boundary: a solid boundary and a free non-deformable boundary. As the study shows, the method accurately reproduces the flow characteristics for a given porosity coefficient, demonstrating strong agreement with results obtained using the finite difference method. An increase in the channel width leads to a more intense flow, reflected in the growth of the Reynolds number, and with further expansion the Kelvin–Helmholtz instability develops.",
+      "doi": "10.17072/1994-3598-2025-1-52-62"
+    },
+    {
+      "id": "pub4",
+      "title": "Mass Transfer Simulation In An Inclined Two-Layer Porous Channel By The Lattice Boltzmann Method",
+      "journal": "Microgravity Science and Technology – Vol. 37, article 47 (2025)",
+      "description": "Mass transfer in an inclined porous channel is simulated using the lattice Boltzmann method",
+      "abstract": "The study numerically investigates the mass transfer in an inclined two-layer porous channel in the gravitational field. The lower region of the channel is occupied by a porous medium, while the upper region consists of a pure fluid. The initial concentration distribution is such that the impurity is localized in the central part of the porous domain. The upper and lower walls of the channel are solid and no-flux boundary condition for the concentration is applied. Periodic boundary conditions are applied for the velocity field on the side walls, and the flow is driven by the longitudinal component of the velocity induced by the gravitational field and channel inclination. For the concentration field two boundary condition types are examined on the side walls: periodic boundary conditions, and a non-periodic characterized by a vanishing concentration at the left wall and a constant flux condition at the right wall. The problem is solved for constant porosity and permeability coefficients, with the Schmidt number fixed at Sc^3. The study focuses on the diffusion of an impurity into a viscous pure fluid for various Darcy numbers (Da). The simulations are conducted using the Lattice Boltzmann Method (LBM) on a D2Q9 lattice. A modified multiple relaxation-time (MRT) LBM scheme was introduced for the mass transfer simulation in porous media. The effectiveness and applicability of the proposed scheme for such classes of problems are substantiated through the presented results. For the periodic boundary conditions, it is shown that the integral concentration within the domain is conserved, and the concentration profiles both inside and outside the porous layer converge toward the average value. In contrast, under non-periodic boundary conditions, the impurity is gradually washed out of the domain. The obtained numerical results also demonstrate that the type of boundary condition imposed on the concentration field at the side walls has a negligible effect on the velocity field. At a higher Darcy number Da=10^-2, the evolution of the impurity is more pronounced, and the system reaches a steady state more rapidly. For lower Darcy numbers (Da=10^-3 and Da=10^-4), the impurity evolution rate outside the porous matrix is approximately the same, whereas within the porous matrix, the evolution is more intense for larger Darcy numbers.",
+      "doi": "10.1007/s12217-025-10200-9"
+    },
+    {
+      "id": "pub5",
+      "title": "Linear Stability of Marangoni Convection in a Thin Film under Vertical Vibrations",
+      "journal": "Microgravity Science and Technology – Vol. 37, article 48 (2025)",
+      "description": "The stability of thin liquid films under vertical vibrations and bottom heating is investigated.",
+      "abstract": "We investigate the linear stability of an incompressible, viscous liquid thin film placed on a solid substrate subjected to vertical harmonic vibrations in the presence of gravity and a negative temperature gradient. The substrate oscillates with a finite frequency, compared to the viscous time and large amplitude, compared to the film thickness. By separating the governing equations into oscillatory (fast) and time-averaged (slow) components, we obtain an analytical solution for the oscillatory fields and represent their velocity structure through isolines of stream function. Averaging over the fast time scale yields a set of amplitude equations that describe the slow evolution of the free deformable surface. The stability analysis reveals that gravity and surface tension stabilise the interface, while van der Waals attraction and the imposed thermal gradient destabilise. Vertical vibrations may stabilise the surface: at low frequencies even large amplitudes fail to suppress the long-wave instability for moderate and high Marangoni numbers, whereas at moderate to high frequencies sufficiently strong vibrations stabilise the film across the entire wavenumber spectrum. For a huge values of Marangoni number small vibrations are ineffective, but when Marangoni number is small complete stabilisation is achieved at moderate frequencies for all amplitudes considered. Results obtained in limiting cases are consistent with the previous studies for isothermal and non-vibrated cases.",
+      "doi": "10.1007/s12217-025-10201-8"
+    }
     ]
   },
   "talks": {

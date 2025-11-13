@@ -65,7 +65,7 @@
   "talks": {
   "title": "Презентации",
   "presentationLink": "Ссылка на презентацию",
-  "funfactLabel": "О поездке",
+  "funfactLabel": "О конференции",
   "items": [
     {
       "id": "talk1",
@@ -82,7 +82,7 @@
       "id": "talk2",
       "title": "Нелинейные волны",
       "place": "Нижний Новгород, 2020",
-      "img": "/images/novosib2019.png",
+      "img": "/images/n_novgorod2020.png",
       "presentations": [
         { "title": "Моделирование квазистационарного рельефа на поверхности раздела двух несмешивающихся сред методом LBM (постерный доклад)", "link": "https://storage.yandexcloud.net/presentations51294/%D0%9C%D0%BE%D0%B4%D0%B5%D0%BB%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%BA%D0%B2%D0%B0%D0%B7%D0%B8%D1%81%D1%82%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D1%80%D0%BD%D0%BE%D0%B3%D0%BE%20%D1%80%D0%B5%D0%BB%D1%8C%D0%B5%D1%84%D0%B0%20%D0%BD%D0%B0%20%D0%BF%D0%BE%D0%B2%D0%B5%D1%80%D1%85%D0%BD%D0%BE%D1%81%D1%82%D0%B8%20%D1%80%D0%B0%D0%B7%D0%B4%D0%B5%D0%BB%D0%B0%20%D0%B4%D0%B2%D1%83%D1%85%20%D0%BD%D0%B5%D1%81%D0%BC%D0%B5%D1%88%D0%B8%D0%B2%D0%B0%D1%8E%D1%89%D0%B8%D1%85%D1%81%D1%8F%20%D1%81%D1%80%D0%B5%D0%B4%20%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D0%BE%D0%BC%20LBM%20%20.%20%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B8%CC%86%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%202020.pdf" },
         { "title": "Длинноволновая конвекция Марангони в тонкой пленке   под действием касательных вибраций (постерный доклад)", "link": "https://storage.yandexcloud.net/presentations51294/%D0%94%D0%BB%D0%B8%D0%BD%D0%BD%D0%BE%D0%B2%D0%BE%D0%BB%D0%BD%D0%BE%D0%B2%D0%B0%D1%8F%20%D0%BA%D0%BE%D0%BD%D0%B2%D0%B5%D0%BA%D1%86%D0%B8%D1%8F%20%D0%9C%D0%B0%D1%80%D0%B0%D0%BD%D0%B3%D0%BE%D0%BD%D0%B8%20%D0%B2%20%D1%82%D0%BE%D0%BD%D0%BA%D0%BE%D0%B8%CC%86%20%D0%BF%D0%BB%D0%B5%D0%BD%D0%BA%D0%B5%20%20%20%D0%BF%D0%BE%D0%B4%20%D0%B4%D0%B5%D0%B8%CC%86%D1%81%D1%82%D0%B2%D0%B8%D0%B5%D0%BC%20%D0%BA%D0%B0%D1%81%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D1%85%20%D0%B2%D0%B8%D0%B1%D1%80%D0%B0%D1%86%D0%B8%D0%B8%CC%86%20%20.%20%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B8%CC%86%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%202020.pdf" }
@@ -90,7 +90,137 @@
       "conferenceLink": "https://conf.nsc.ru/ym2019/ru"
     },
     {
-      "id": "talk20",
+      "id": "talk3",
+      "title": "Неравновесные переходы в сплошных средах",
+      "place": "Пермь, 2020",
+      "img": "/images/perm2020.png",
+      "presentations": [
+        { "title": "The influence of vertical vibrations on a thin horizontal ferrofluid film (устный доклад)", "link": "https://storage.yandexcloud.net/presentations51294/The%20influence%20of%20vertical%20vibrations%20on%20a%20thin%20horizontal%20ferrofluid%20film.%20Perm%202021.pdf" }
+      ],
+      "conferenceLink": "https://npcm-perm.tilda.ws/"
+    },
+    {
+      "id": "talk4",
+      "title": "Физика СпБ",
+      "place": "Санкт-Петербург, 2021",
+      "img": "/images/PiterSputnik2021.png",
+      "presentations": [
+        { "title": "Lost", "link": ""}
+      ],
+      "conferenceLink": "https://physica.spb.ru/archive/physicaspb2021/",
+      "funfact": "Конференция проходила в гостинице Спутник, и как-то ничего, кроме вкусных креветок, которые я заказывал себе в номер каждый день, я припомнить не могу"
+    },
+    {
+      "id": "talk5",
+      "title": "Всероссийская конференция молодых учёных-механиков имени академика Г.Г. Чёрного",
+      "place": "Сочи, 2022",
+      "img": "/images/Sochi2022.png",
+      "presentations": [
+        { "title": "Прямое численное моделирования трехмерной наклонной области (устный доклад)", "link": "https://storage.yandexcloud.net/presentations51294/%D0%9F%D1%80%D1%8F%D0%BC%D0%BE%D0%B5%20%D1%87%D0%B8%D1%81%D0%BB%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5%20%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%82%D1%80%D0%B5%D1%85%D0%BC%D0%B5%D1%80%D0%BD%D0%BE%D0%B3%D0%BE%20%D1%82%D1%83%D1%80%D0%B1%D1%83%D0%BB%D0%B5%D0%BD%D1%82%D0%BD%D0%BE%D0%B3%D0%BE%20%D1%82%D0%B5%D1%87%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%B2%20%D0%BD%D0%B0%D0%BA%D0%BB%D0%BE%D0%BD%D0%BD%D0%BE%D0%BC%20%D1%81%D0%BB%D0%BE%D0%B5.%20%D0%A1%D0%BE%D1%87%D0%B8%202022.pdf"}
+      ],
+      "conferenceLink": "https://www.youngmech.ru/index.php/ru/",
+      "funfact": "Познакомились с Ладушкой ❤️"
+    },
+    {
+      "id": "talk6",
+      "title": "Пермские гидродинамические научные чтения",
+      "place": "Пермь, 2022",
+      "img": "/images/perm_pgnch2022.png",
+      "presentations": [
+        { "title": "Применение метода решеточных уравнений Больцмана с использованием MRT-оператора для моделирования полости с подвижной верхней (устный доклад)", "link": "https://storage.yandexcloud.net/presentations51294/%D0%9F%D1%80%D0%B8%D0%BC%D0%B5%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D0%B0%20%D1%80%D0%B5%D1%88%D0%B5%D1%82%D0%BE%D1%87%D0%BD%D1%8B%D1%85%20%D1%83%D1%80%D0%B0%D0%B2%D0%BD%D0%B5%D0%BD%D0%B8%D0%B8%CC%86%20%D0%91%D0%BE%D0%BB%D1%8C%D1%86%D0%BC%D0%B0%D0%BD%D0%B0%20%D1%81%20%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%D0%BC%20MRT-%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%B0%20%D0%B4%D0%BB%D1%8F%20%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%20%D0%BF%D0%BE%D0%BB%D0%BE%D1%81%D1%82%D0%B8%20%D1%81%20%D0%BF%D0%BE%D0%B4%D0%B2%D0%B8%D0%B6%D0%BD%D0%BE%D0%B8%CC%86%20%D0%B2%D0%B5%D1%80%D1%85%D0%BD%D0%B5%D0%B8%CC%86.%20%D0%9F%D0%B5%D1%80%D0%BC%D1%8C%202022.pdf"}
+      ],
+      "conferenceLink": "https://npcm-perm.tilda.ws/hydro-perm",
+      "funfact": "Возможно, что во время этой конференции я кушал и плавал, а этот доклад делал мой соавтор"
+    },
+    {
+      "id": "talk7",
+      "title": "Семинар по теоретической физике",
+      "place": "Пермь, 2022",
+      "img": "/images/perm_seminar2022.png",
+      "presentations": [
+        { "title": "Динамика поверхности раздела в переменных силовых полях (устный доклад)", "link": "https://storage.yandexcloud.net/presentations51294/%D0%94%D0%B8%D0%BD%D0%B0%D0%BC%D0%B8%D0%BA%D0%B0%20%D0%BF%D0%BE%D0%B2%D0%B5%D1%80%D1%85%D0%BD%D0%BE%D1%81%D1%82%D0%B8%20%D1%80%D0%B0%D0%B7%D0%B4%D0%B5%D0%BB%D0%B0%20%D0%B2%20%D0%BF%D0%B5%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%BD%D1%8B%D1%85%20%D1%81%D0%B8%D0%BB%D0%BE%D0%B2%D1%8B%D1%85%20%D0%BF%D0%BE%D0%BB%D1%8F%D1%85.%20%D0%9F%D0%B5%D1%80%D0%BC%D1%8C%202022.pdf"}
+      ],
+      "funfact": "Честно говоря, это было самое тяжелое выступление в моей жизни. Принудительно был заставлен выступить перед неполным коллективом кафедры теор. физики и выступил плохо. Из-за того, что мало решенных задач и почти не с чем выступать и из-за очень слабого уровня, по сравнению с людьми перед которыми я выступал. "
+    },
+    {
+      "id": "talk8",
+      "title": "Зимняя школа",
+      "place": "Пермь, 2023",
+      "img": "/images/winter_school_2023.png",
+      "presentations": [
+        { "title": "Осреднённая динамика тонкой плёнки феррожидкости в вертикальном вибрационном поле (устный доклад)", "link": "https://storage.yandexcloud.net/presentations51294/%D0%9E%D1%81%D1%80%D0%B5%D0%B4%D0%BD%D0%B5%CC%88%D0%BD%D0%BD%D0%B0%D1%8F%20%D0%B4%D0%B8%D0%BD%D0%B0%D0%BC%D0%B8%D0%BA%D0%B0%20%D1%82%D0%BE%D0%BD%D0%BA%D0%BE%D0%B8%CC%86%20%D0%BF%D0%BB%D0%B5%CC%88%D0%BD%D0%BA%D0%B8%20%D1%84%D0%B5%D1%80%D1%80%D0%BE%D0%B6%D0%B8%D0%B4%D0%BA%D0%BE%D1%81%D1%82%D0%B8%20%D0%B2%20%D0%B2%D0%B5%D1%80%D1%82%D0%B8%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%BC%20%D0%B2%D0%B8%D0%B1%D1%80%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%BE%D0%BC%20%D0%BF%D0%BE%D0%BB%D0%B5.%20%D0%9F%D0%B5%D1%80%D0%BC%D1%8C%202023.pdf"}
+      ],
+      "funfact": "Выступил нормально, но - самое главное - познакомился с Валерой Корепановым! 🍻🤜🤛",
+      "conferenceLink": "https://conf.icmm.ru/event/39/overview"
+    },
+    {
+      "id": "talk9",
+      "title": "Защита аспирантской работы",
+      "place": "Пермь, 2023",
+      "img": "/images/pgniu-2023.png",
+      "presentations": [
+        { "title": "Моделирование динамики поверхности раздела методом решеточных уравнений Больцмана (устный доклад)", "link": "https://storage.yandexcloud.net/presentations51294/%D0%90%D1%81%D0%BF%D0%B8%D1%80%D0%B0%D0%BD%D1%82%D1%83%D1%80%D0%B0.%20%D0%9F%D0%B5%D1%80%D0%BC%D1%8C%202023.pdf"}
+      ],
+      "funfact": "Одно из самых удручающих выступлений в моей жизни. Выступил неудачно, постановки рассказывал плохо. Да и сама работа, которая подводила итог моему обучению в аспирантуре, была не очень. Я, конечно, сам в этом виноват - очень часто и надолго я отвлекался на другие ресурсозатратные дела. Работал backend-разработчиком, играл в шахматы, вел предпринимательскую деятельность.. Поэтому и результат в науке к тому моменту был весьма скромным. "
+    },
+    {
+      "id": "talk10",
+      "title": "XIII Всероссийский съезд по теоретической и прикладной механике",
+      "place": "Санкт-Петербург, 2023",
+      "img": "/images/piter2023.png",
+      "presentations": [
+        { "title": "Численное моделирование динамики тонкой пленки феррожидкости под действием вертикальных вибраций (постерный доклад)", "link": "https://storage.yandexcloud.net/presentations51294/%D0%A7%D0%98%D0%A1%D0%9B%D0%95%D0%9D%D0%9D%D0%9E%D0%95%20%D0%9C%D0%9E%D0%94%D0%95%D0%9B%D0%98%D0%A0%D0%9E%D0%92%D0%90%D0%9D%D0%98%D0%95%20%D0%A4%D0%95%D0%A0%D0%A0%D0%9E%D0%96%D0%98%D0%94%D0%9A%D0%9E%D0%A1%D0%A2%D0%98.%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82%20%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3%202023.pdf"}
+      ],
+      "conferenceLink": "https://ruscongrmech2023.ru/",
+      "funfact": "Благодаря Маше Агеевой, это была одна из лучших поездок в моей жизни. Питер, солнечная погода, вкусная еда и целая беззаботная неделя, когда мы жили как-будто в свободном мире."
+    },
+    {
+      "id": "talk11",
+      "title": "Всероссийская конференция молодых учёных-механиков имени академика Г.Г. Чёрного",
+      "place": "Сочи, 2023",
+      "img": "/images/sochi2023.png",
+      "presentations": [
+        { "title": "Численный анализ устойчивости капиллярной конвекции в тонкой пленке (постерный доклад)", "link": "https://storage.yandexcloud.net/presentations51294/%D0%A7%D0%B8%D1%81%D0%BB%D0%B5%D0%BD%D0%BD%D1%8B%D0%B8%CC%86%20%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D1%83%D1%81%D1%82%D0%BE%D0%B8%CC%86%D1%87%D0%B8%D0%B2%D0%BE%D1%81%D1%82%D0%B8%20%D0%BA%D0%B0%D0%BF%D0%B8%D0%BB%D0%BB%D1%8F%D1%80%D0%BD%D0%BE%D0%B8%CC%86%20%D0%BA%D0%BE%D0%BD%D0%B2%D0%B5%D0%BA%D1%86%D0%B8%D0%B8%20%D0%B2%20%D1%82%D0%BE%D0%BD%D0%BA%D0%BE%D0%B8%CC%86%20%D0%BF%D0%BB%D0%B5%D0%BD%D0%BA%D0%B5.%20%D0%A1%D0%BE%D1%87%D0%B8%202023.pdf"}
+      ],
+      "conferenceLink": "https://www.youngmech.ru/index.php/ru/"
+    },
+    {
+      "id": "talk12",
+      "title": "Волны и вихри в сложных средах",
+      "place": "Москва, 2024",
+      "img": "/images/moscow2024.png",
+      "presentations": [
+        { "title": "Применение метода решеточных уравнений Больцмана к моделированию неустойчивости Розенцвейга (устный доклад)", "link": "https://storage.yandexcloud.net/presentations51294/%D0%9F%D1%80%D0%B8%D0%BC%D0%B5%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D0%B0%20%D1%80%D0%B5%D1%88%D0%B5%D1%82%D0%BE%D1%87%D0%BD%D1%8B%D1%85%20%D1%83%D1%80%D0%B0%D0%B2%D0%BD%D0%B5%D0%BD%D0%B8%D0%B8%CC%86%20%D0%91%D0%BE%D0%BB%D1%8C%D1%86%D0%BC%D0%B0%D0%BD%D0%B0%20%D0%BA%20%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8E%20%D0%BD%D0%B5%D1%83%D1%81%D1%82%D0%BE%D0%B8%CC%86%D1%87%D0%B8%D0%B2%D0%BE%D1%81%D1%82%D0%B8%20%D0%A0%D0%BE%D0%B7%D0%B5%D0%BD%D1%86%D0%B2%D0%B5%D0%B8%CC%86%D0%B3%D0%B0.%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0%202024.pdf"},
+        { "title": "Влияние вертикальных вибраций на пульсационное течение длинноволновой конвекции Марангони в тонкой пленке (устный доклад)", "link": "https://storage.yandexcloud.net/presentations51294/%D0%92%D0%BB%D0%B8%D1%8F%D0%BD%D0%B8%D0%B5%20%D0%B2%D0%B5%D1%80%D1%82%D0%B8%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85%20%D0%B2%D0%B8%D0%B1%D1%80%D0%B0%D1%86%D0%B8%D0%B8%CC%86%20%D0%BD%D0%B0%20%D0%BF%D1%83%D0%BB%D1%8C%D1%81%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%BE%D0%B5%20%D1%82%D0%B5%D1%87%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B4%D0%BB%D0%B8%D0%BD%D0%BD%D0%BE%D0%B2%D0%BE%D0%BB%D0%BD%D0%BE%D0%B2%D0%BE%D0%B8%CC%86%20%D0%BA%D0%BE%D0%BD%D0%B2%D0%B5%D0%BA%D1%86%D0%B8%D0%B8%20%D0%9C%D0%B0%D1%80%D0%B0%D0%BD%D0%B3%D0%BE%D0%BD%D0%B8%20%D0%B2%20%D1%82%D0%BE%D0%BD%D0%BA%D0%BE%D0%B8%CC%86%20%D0%BF%D0%BB%D0%B5%D0%BD%D0%BA%D0%B5.%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0%202024.pdf"}
+      ],
+      "conferenceLink": "https://ipmnet.ru/conf/confs/",
+      "funfact": "Мне очень понравилась эта поездка. И сам Институт - скромный, но с достоинством и красотой, и сама конференция. После поездки появилось много идей и она дала импульс для работы. Конечно, Москва выматывает, но у меня остались от этой командировки очень теплые чувства."
+    },
+    {
+      "id": "talk13",
+      "title": "Зимняя школа",
+      "place": "Пермь, 2025",
+      "img": "/images/winter_school_2025.png",
+      "presentations": [
+        { "title": "Моделирование процесса переноса концентрации в двухслойном канале методом решеточных уравнений Больцмана (постерный доклад)", "link": "https://storage.yandexcloud.net/presentations51294/%D0%9C%D0%9E%D0%94%D0%95%D0%9B%D0%98%D0%A0%D0%9E%D0%92%D0%90%D0%9D%D0%98%D0%95%20%D0%9F%D0%A0%D0%9E%D0%A6%D0%95%D0%A1%D0%A1%D0%90%20%D0%9F%D0%95%D0%A0%D0%95%D0%9D%D0%9E%D0%A1%D0%90%20%D0%9A%D0%9E%D0%9D%D0%A6%D0%95%D0%9D%D0%A2%D0%A0%D0%90%D0%A6%D0%98%D0%98%20%D0%92%20%20%D0%94%D0%92%D0%A3%D0%A5%D0%A1%D0%9B%D0%9E%D0%98%CC%86%D0%9D%D0%9E%D0%9C%20%D0%9A%D0%90%D0%9D%D0%90%D0%9B%D0%95%20%D0%9C%D0%95%D0%A2%D0%9E%D0%94%D0%9E%D0%9C%20%D0%A0%D0%95%D0%A8%D0%95%D0%A2%D0%9E%D0%A7%D0%9D%D0%AB%D0%A5%20%D0%A3%D0%A0%D0%90%D0%92%D0%9D%D0%95%D0%9D%D0%98%D0%98%CC%86%20%20%D0%91%D0%9E%D0%9B%D0%AC%D0%A6%D0%9C%D0%90%D0%9D%D0%90.%20%D0%9F%D0%B5%D1%80%D0%BC%D1%8C%202025.pdf"}      
+      ],
+      "conferenceLink": "https://conf.icmm.ru/event/39/overview",
+      "funfact": "2025 год был одним из самых успешных (пока!) в моей научной карьере и начался он с выступления на постерной секции в ИМСС. Поэтому я рискнул и нескромно решился разместить себя 🤪"
+    },
+    {
+      "id": "talk14",
+      "title": "Актуальные проблемы механики",
+      "place": "Санкт-Петербург, 2025",
+      "img": "/images/piter_2025.png",
+      "presentations": [
+        { "title": "Моделирование процесса массопереноса в наклоненном пористом канале (устный доклад)", "link": "https://storage.yandexcloud.net/presentations51294/%D0%9C%D0%BE%D0%B4%D0%B5%D0%BB%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D0%B0%20%D0%BC%D0%B0%D1%81%D1%81%D0%BE%D0%BF%D0%B5%D1%80%D0%B5%D0%BD%D0%BE%D1%81%D0%B0%20%D0%B2%20%D0%BD%D0%B0%D0%BA%D0%BB%D0%BE%D0%BD%D0%B5%D0%BD%D0%BD%D0%BE%D0%BC%20%D0%BF%D0%BE%D1%80%D0%B8%D1%81%D1%82%D0%BE%D0%BC%20%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B5.%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3%202025.pdf"},
+        { "title": "Линейная устойчивость конвекции Марангони в тонкой пленке при вертикальных вибрациях (постерный доклад)", "link": "https://storage.yandexcloud.net/presentations51294/%D0%9B%D0%B8%D0%BD%D0%B5%D0%B8%CC%86%D0%BD%D0%B0%D1%8F%20%D1%83%D1%81%D1%82%D0%BE%D0%B8%CC%86%D1%87%D0%B8%D0%B2%D0%BE%D1%81%D1%82%D1%8C%20%D0%BA%D0%BE%D0%BD%D0%B2%D0%B5%D0%BA%D1%86%D0%B8%D0%B8%20%D0%9C%D0%B0%D1%80%D0%B0%D0%BD%D0%B3%D0%BE%D0%BD%D0%B8%20%D0%B2%20%D1%82%D0%BE%D0%BD%D0%BA%D0%BE%D0%B8%CC%86%20%D0%BF%D0%BB%D0%B5%D0%BD%D0%BA%D0%B5%20%D0%BF%D1%80%D0%B8%20%D0%B2%D0%B5%D1%80%D1%82%D0%B8%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85%20%D0%B2%D0%B8%D0%B1%D1%80%D0%B0%D1%86%D0%B8%D1%8F%D1%85.%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3%202025.pdf"}      
+      ],
+      "conferenceLink": "https://apm-conf.spb.ru/",
+      "funfact": "На этой конференции мне впервые предложили работать в научном коллективе, который никак не связан с местом моей учебы 🥳. Правда, я отказался)"
+    },
+    {
+      "id": "talk15",
       "title": "I Уральский молодежный теплофизический семинар",
       "place": "Екатеринбург, 2025",
       "img": "/images/ekat2025.png",

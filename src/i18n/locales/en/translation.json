@@ -65,25 +65,173 @@
   "talks": {
     "title": "Presentations",
     "presentationLink": "Ссылка на презентацию",
-    "funfactLabel": "Смешной факт",
+    "funfactLabel": "About the conference",
     "items": [
-      {
-        "id": "talk1",
-        "title": "«Турбулентность и плёнки»",
-        "place": "Конференция в Перми, 2023",
-        "description": "Доклад о моделировании турбулентных течений в тонких жидких плёнках.",
-        "img": "/images/turbulence.jpg",
-        "link": "https://example.com/talk1-presentation.pdf",
-        "funfact": "Презентация готовилась в поезде между Пермью и Екатеринбургом!"
-      },
-      {
-        "id": "talk20",
-        "title": "I Уральский молодежный теплофизический семинар",
-        "place": "Екатеринбург, 2025",
-        "img": "/images/flow-models.jpg",
-        "link": "https://example.com/talk2-presentation.pdf"
-      }
-    ]
+    {
+      "id": "talk1",
+      "title": "XX Всероссийская конференция молодых ученых по математическому моделированию и информационным технологиям (YM-2019)",
+      "place": "Novosibirsk, 2019",
+      "img": "/images/novosib2019.png",
+      "presentations": [
+        { "title": "Frozen wave simulation by the Lattice Boltzmann Method (spoken presentation) [In Russian]", "link": "https://storage.yandexcloud.net/presentations51294/%D0%9C%D0%BE%D0%B4%D0%B5%D0%BB%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%BF%D0%BE%D0%B2%D0%B5%D1%80%D1%85%D0%BD%D0%BE%D1%81%D1%82%D0%BD%D1%8B%D1%85%20%D0%B2%D0%BE%D0%BB%D0%BD%20%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D0%BE%D0%BC%20LBE%20%D0%9D%D0%BE%D0%B2%D0%BE%D1%81%D0%B8%D0%B1%D0%B8%D1%80%D1%81%D0%BA.pdf" }
+      ],
+      "conferenceLink": "https://konf.ict.nsc.ru/ru/page/ym2019;jsessionid=C72C25C6170AECC0BB3A76E389CD1184",
+      "funfact": "It was my very first offsite conference. I remember going there alone and meeting some truly wonderful people — Liza Zipunova and Ilya Pershin."
+    },
+    {
+      "id": "talk2",
+      "title": "Нелинейные волны",
+      "place": "Nizhniy Novgorod, 2020",
+      "img": "/images/n_novgorod2020.png",
+      "presentations": [
+        { "title": "Simulation of froze wave interface between two immiscible fluid by the Lattice Bolztmann Method (Poster) [In Russian]", "link": "https://storage.yandexcloud.net/presentations51294/%D0%9C%D0%BE%D0%B4%D0%B5%D0%BB%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%BA%D0%B2%D0%B0%D0%B7%D0%B8%D1%81%D1%82%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D1%80%D0%BD%D0%BE%D0%B3%D0%BE%20%D1%80%D0%B5%D0%BB%D1%8C%D0%B5%D1%84%D0%B0%20%D0%BD%D0%B0%20%D0%BF%D0%BE%D0%B2%D0%B5%D1%80%D1%85%D0%BD%D0%BE%D1%81%D1%82%D0%B8%20%D1%80%D0%B0%D0%B7%D0%B4%D0%B5%D0%BB%D0%B0%20%D0%B4%D0%B2%D1%83%D1%85%20%D0%BD%D0%B5%D1%81%D0%BC%D0%B5%D1%88%D0%B8%D0%B2%D0%B0%D1%8E%D1%89%D0%B8%D1%85%D1%81%D1%8F%20%D1%81%D1%80%D0%B5%D0%B4%20%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D0%BE%D0%BC%20LBM%20%20.%20%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B8%CC%86%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%202020.pdf" },
+        { "title": "Long-Wave Marangoni Convection in a Thin Film Under Tangential Vibrations (Poster Presentation) [In Russian]", "link": "https://storage.yandexcloud.net/presentations51294/%D0%94%D0%BB%D0%B8%D0%BD%D0%BD%D0%BE%D0%B2%D0%BE%D0%BB%D0%BD%D0%BE%D0%B2%D0%B0%D1%8F%20%D0%BA%D0%BE%D0%BD%D0%B2%D0%B5%D0%BA%D1%86%D0%B8%D1%8F%20%D0%9C%D0%B0%D1%80%D0%B0%D0%BD%D0%B3%D0%BE%D0%BD%D0%B8%20%D0%B2%20%D1%82%D0%BE%D0%BD%D0%BA%D0%BE%D0%B8%CC%86%20%D0%BF%D0%BB%D0%B5%D0%BD%D0%BA%D0%B5%20%20%20%D0%BF%D0%BE%D0%B4%20%D0%B4%D0%B5%D0%B8%CC%86%D1%81%D1%82%D0%B2%D0%B8%D0%B5%D0%BC%20%D0%BA%D0%B0%D1%81%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D1%85%20%D0%B2%D0%B8%D0%B1%D1%80%D0%B0%D1%86%D0%B8%D0%B8%CC%86%20%20.%20%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B8%CC%86%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%202020.pdf" }
+      ],
+      "conferenceLink": "https://conf.nsc.ru/ym2019/ru"
+    },
+    {
+      "id": "talk3",
+      "title": "Nonequilibrium transitions in continuous media",
+      "place": "Perm, 2020",
+      "img": "/images/perm2020.png",
+      "presentations": [
+        { "title": "The influence of vertical vibrations on a thin horizontal ferrofluid film (spoken presentation) [In Russian]", "link": "https://storage.yandexcloud.net/presentations51294/The%20influence%20of%20vertical%20vibrations%20on%20a%20thin%20horizontal%20ferrofluid%20film.%20Perm%202021.pdf" }
+      ],
+      "conferenceLink": "https://npcm-perm.tilda.ws/"
+    },
+    {
+      "id": "talk4",
+      "title": "Физика СпБ",
+      "place": "Saint-Petersburg, 2021",
+      "img": "/images/PiterSputnik2021.png",
+      "presentations": [
+        { "title": "Lost", "link": ""}
+      ],
+      "conferenceLink": "https://physica.spb.ru/archive/physicaspb2021/",
+      "funfact": "The conference was held at the Sputnik Hotel, and somehow I can't remember anything except the delicious shrimps that I ordered to my room every day."
+    },
+    {
+      "id": "talk5",
+      "title": "Всероссийская конференция молодых учёных-механиков имени академика Г.Г. Чёрного",
+      "place": "Sochi, 2022",
+      "img": "/images/Sochi2022.png",
+      "presentations": [
+        { "title": "Direct numerical simulation of a three-dimensional inclined area (spoken presentation) [In Russian]", "link": "https://storage.yandexcloud.net/presentations51294/%D0%9F%D1%80%D1%8F%D0%BC%D0%BE%D0%B5%20%D1%87%D0%B8%D1%81%D0%BB%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5%20%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%82%D1%80%D0%B5%D1%85%D0%BC%D0%B5%D1%80%D0%BD%D0%BE%D0%B3%D0%BE%20%D1%82%D1%83%D1%80%D0%B1%D1%83%D0%BB%D0%B5%D0%BD%D1%82%D0%BD%D0%BE%D0%B3%D0%BE%20%D1%82%D0%B5%D1%87%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%B2%20%D0%BD%D0%B0%D0%BA%D0%BB%D0%BE%D0%BD%D0%BD%D0%BE%D0%BC%20%D1%81%D0%BB%D0%BE%D0%B5.%20%D0%A1%D0%BE%D1%87%D0%B8%202022.pdf"}
+      ],
+      "conferenceLink": "https://www.youngmech.ru/index.php/ru/",
+      "funfact": "Met Lada ❤️"
+    },
+    {
+      "id": "talk6",
+      "title": "Пермские гидродинамические научные чтения",
+      "place": "Perm, 2022",
+      "img": "/images/perm_pgnch2022.png",
+      "presentations": [
+        { "title": "Cavity flow simulation by the LBM with multiple-relaxation-time operator (spoken presentation) [In Russian]", "link": "https://storage.yandexcloud.net/presentations51294/%D0%9F%D1%80%D0%B8%D0%BC%D0%B5%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D0%B0%20%D1%80%D0%B5%D1%88%D0%B5%D1%82%D0%BE%D1%87%D0%BD%D1%8B%D1%85%20%D1%83%D1%80%D0%B0%D0%B2%D0%BD%D0%B5%D0%BD%D0%B8%D0%B8%CC%86%20%D0%91%D0%BE%D0%BB%D1%8C%D1%86%D0%BC%D0%B0%D0%BD%D0%B0%20%D1%81%20%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%D0%BC%20MRT-%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%B0%20%D0%B4%D0%BB%D1%8F%20%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%20%D0%BF%D0%BE%D0%BB%D0%BE%D1%81%D1%82%D0%B8%20%D1%81%20%D0%BF%D0%BE%D0%B4%D0%B2%D0%B8%D0%B6%D0%BD%D0%BE%D0%B8%CC%86%20%D0%B2%D0%B5%D1%80%D1%85%D0%BD%D0%B5%D0%B8%CC%86.%20%D0%9F%D0%B5%D1%80%D0%BC%D1%8C%202022.pdf"}
+      ],
+      "conferenceLink": "https://npcm-perm.tilda.ws/hydro-perm",
+      "funfact": "It is possible that during this conference I was eating and swimming, while this presentation was given by my co-author"
+    },
+    {
+      "id": "talk7",
+      "title": "Seminar on theoretical Physics",
+      "place": "Perm, 2022",
+      "img": "/images/perm_seminar2022.png",
+      "presentations": [
+        { "title": "Dynamics of the Interface in Variable Force Fields (spoken presentation) [In Russian]", "link": "https://storage.yandexcloud.net/presentations51294/%D0%94%D0%B8%D0%BD%D0%B0%D0%BC%D0%B8%D0%BA%D0%B0%20%D0%BF%D0%BE%D0%B2%D0%B5%D1%80%D1%85%D0%BD%D0%BE%D1%81%D1%82%D0%B8%20%D1%80%D0%B0%D0%B7%D0%B4%D0%B5%D0%BB%D0%B0%20%D0%B2%20%D0%BF%D0%B5%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%BD%D1%8B%D1%85%20%D1%81%D0%B8%D0%BB%D0%BE%D0%B2%D1%8B%D1%85%20%D0%BF%D0%BE%D0%BB%D1%8F%D1%85.%20%D0%9F%D0%B5%D1%80%D0%BC%D1%8C%202022.pdf"}
+      ],
+      "funfact": "Honestly, this was the hardest presentation of my life. I was forced to speak in front of part of the Department of Theoretical Physics staff, and I didn’t do well. I had few solved problems and almost nothing to present, and I felt so stupid compared to the others I was presenting in front of."
+    },
+    {
+      "id": "talk8",
+      "title": "Winter School",
+      "place": "Perm, 2023",
+      "img": "/images/winter_school_2023.png",
+      "presentations": [
+        { "title": "Averaged Dynamics of a Thin Ferrofluid Film in a Vertical Vibrational Field (spoken presentation) [In Russian]", "link": "https://storage.yandexcloud.net/presentations51294/%D0%9E%D1%81%D1%80%D0%B5%D0%B4%D0%BD%D0%B5%CC%88%D0%BD%D0%BD%D0%B0%D1%8F%20%D0%B4%D0%B8%D0%BD%D0%B0%D0%BC%D0%B8%D0%BA%D0%B0%20%D1%82%D0%BE%D0%BD%D0%BA%D0%BE%D0%B8%CC%86%20%D0%BF%D0%BB%D0%B5%CC%88%D0%BD%D0%BA%D0%B8%20%D1%84%D0%B5%D1%80%D1%80%D0%BE%D0%B6%D0%B8%D0%B4%D0%BA%D0%BE%D1%81%D1%82%D0%B8%20%D0%B2%20%D0%B2%D0%B5%D1%80%D1%82%D0%B8%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%BC%20%D0%B2%D0%B8%D0%B1%D1%80%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%BE%D0%BC%20%D0%BF%D0%BE%D0%BB%D0%B5.%20%D0%9F%D0%B5%D1%80%D0%BC%D1%8C%202023.pdf"}
+      ],
+      "funfact": "I performed well, but most importantly, I met Valery Korepanov! 🍻🤜🤛",
+      "conferenceLink": "https://conf.icmm.ru/event/39/overview"
+    },
+    {
+      "id": "talk9",
+      "title": "Graduation work",
+      "place": "Perm, 2023",
+      "img": "/images/pgniu-2023.png",
+      "presentations": [
+        { "title": "Simulation of Interface Dynamics via the Lattice Boltzmann Method (spoken presentation) [In Russian]", "link": "https://storage.yandexcloud.net/presentations51294/%D0%90%D1%81%D0%BF%D0%B8%D1%80%D0%B0%D0%BD%D1%82%D1%83%D1%80%D0%B0.%20%D0%9F%D0%B5%D1%80%D0%BC%D1%8C%202023.pdf"}
+      ],
+      "funfact": "One of the most discouraging presentations of my life. I did not perform well, and I presented the problem statements poorly. Moreover, the work itself, which was supposed to summarize my PhD studies, was not very strong. I am, of course, to blame—too often and for too long I got distracted by other time-consuming activities. I was working as a backend developer, playing chess, and running entrepreneurial projects. As a result, my scientific output at that time was quite modest."
+    },
+    {
+      "id": "talk10",
+      "title": "XIII Всероссийский съезд по теоретической и прикладной механике",
+      "place": "Saint-Petersburg, 2023",
+      "img": "/images/piter2023.png",
+      "presentations": [
+        { "title": "Numerical Simulation of the Dynamics of a Thin Ferrofluid Film under Vertical Vibrations (poster)", "link": "https://storage.yandexcloud.net/presentations51294/%D0%A7%D0%98%D0%A1%D0%9B%D0%95%D0%9D%D0%9D%D0%9E%D0%95%20%D0%9C%D0%9E%D0%94%D0%95%D0%9B%D0%98%D0%A0%D0%9E%D0%92%D0%90%D0%9D%D0%98%D0%95%20%D0%A4%D0%95%D0%A0%D0%A0%D0%9E%D0%96%D0%98%D0%94%D0%9A%D0%9E%D0%A1%D0%A2%D0%98.%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82%20%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3%202023.pdf"}
+      ],
+      "conferenceLink": "https://ruscongrmech2023.ru/",
+      "funfact": "Thanks to Masha Ageeva, this was one of the best trips of my life. St. Petersburg, sunny weather, delicious food, and a whole carefree week when we lived as if in a free world."
+    },
+    {
+      "id": "talk11",
+      "title": "Всероссийская конференция молодых учёных-механиков имени академика Г.Г. Чёрного",
+      "place": "Sochi, 2023",
+      "img": "/images/sochi2023.png",
+      "presentations": [
+        { "title": "Numerical Analysis of the Stability of Capillary Convection in a Thin Film (poster)", "link": "https://storage.yandexcloud.net/presentations51294/%D0%A7%D0%B8%D1%81%D0%BB%D0%B5%D0%BD%D0%BD%D1%8B%D0%B8%CC%86%20%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D1%83%D1%81%D1%82%D0%BE%D0%B8%CC%86%D1%87%D0%B8%D0%B2%D0%BE%D1%81%D1%82%D0%B8%20%D0%BA%D0%B0%D0%BF%D0%B8%D0%BB%D0%BB%D1%8F%D1%80%D0%BD%D0%BE%D0%B8%CC%86%20%D0%BA%D0%BE%D0%BD%D0%B2%D0%B5%D0%BA%D1%86%D0%B8%D0%B8%20%D0%B2%20%D1%82%D0%BE%D0%BD%D0%BA%D0%BE%D0%B8%CC%86%20%D0%BF%D0%BB%D0%B5%D0%BD%D0%BA%D0%B5.%20%D0%A1%D0%BE%D1%87%D0%B8%202023.pdf"}
+      ],
+      "conferenceLink": "https://www.youngmech.ru/index.php/ru/"
+    },
+    {
+      "id": "talk12",
+      "title": "Волны и вихри в сложных средах",
+      "place": "Moscow, 2024",
+      "img": "/images/moscow2024.png",
+      "presentations": [
+        { "title": "Rosenzweig Instability simulation by the Lattice Bolztmann Method (spoken presentation) [In Russian]", "link": "https://storage.yandexcloud.net/presentations51294/%D0%9F%D1%80%D0%B8%D0%BC%D0%B5%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D0%B0%20%D1%80%D0%B5%D1%88%D0%B5%D1%82%D0%BE%D1%87%D0%BD%D1%8B%D1%85%20%D1%83%D1%80%D0%B0%D0%B2%D0%BD%D0%B5%D0%BD%D0%B8%D0%B8%CC%86%20%D0%91%D0%BE%D0%BB%D1%8C%D1%86%D0%BC%D0%B0%D0%BD%D0%B0%20%D0%BA%20%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8E%20%D0%BD%D0%B5%D1%83%D1%81%D1%82%D0%BE%D0%B8%CC%86%D1%87%D0%B8%D0%B2%D0%BE%D1%81%D1%82%D0%B8%20%D0%A0%D0%BE%D0%B7%D0%B5%D0%BD%D1%86%D0%B2%D0%B5%D0%B8%CC%86%D0%B3%D0%B0.%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0%202024.pdf"},
+        { "title": "Influence of Vertical Vibrations on the Pulsating Flow of Long-Wave Marangoni Convection in a Thin Film (spoken presentation) [In Russian]", "link": "https://storage.yandexcloud.net/presentations51294/%D0%92%D0%BB%D0%B8%D1%8F%D0%BD%D0%B8%D0%B5%20%D0%B2%D0%B5%D1%80%D1%82%D0%B8%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85%20%D0%B2%D0%B8%D0%B1%D1%80%D0%B0%D1%86%D0%B8%D0%B8%CC%86%20%D0%BD%D0%B0%20%D0%BF%D1%83%D0%BB%D1%8C%D1%81%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%BE%D0%B5%20%D1%82%D0%B5%D1%87%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B4%D0%BB%D0%B8%D0%BD%D0%BD%D0%BE%D0%B2%D0%BE%D0%BB%D0%BD%D0%BE%D0%B2%D0%BE%D0%B8%CC%86%20%D0%BA%D0%BE%D0%BD%D0%B2%D0%B5%D0%BA%D1%86%D0%B8%D0%B8%20%D0%9C%D0%B0%D1%80%D0%B0%D0%BD%D0%B3%D0%BE%D0%BD%D0%B8%20%D0%B2%20%D1%82%D0%BE%D0%BD%D0%BA%D0%BE%D0%B8%CC%86%20%D0%BF%D0%BB%D0%B5%D0%BD%D0%BA%D0%B5.%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0%202024.pdf"}
+      ],
+      "conferenceLink": "https://ipmnet.ru/conf/confs/",
+      "funfact": "I really enjoyed this trip. The Institute itself was modest, yet dignified and beautiful, and the conference was great too. The trip sparked many ideas and gave a boost to my work. Of course, Moscow can be exhausting, but I left this business trip with very warm feelings. "
+    },
+    {
+      "id": "talk13",
+      "title": "Winter School",
+      "place": "Perm, 2025",
+      "img": "/images/winter_school_2025.png",
+      "presentations": [
+        { "title": "Mass Transfer Simulation in a Two-Layer Channel by the Lattice Bolztmann Method (poster)", "link": "https://storage.yandexcloud.net/presentations51294/%D0%9C%D0%9E%D0%94%D0%95%D0%9B%D0%98%D0%A0%D0%9E%D0%92%D0%90%D0%9D%D0%98%D0%95%20%D0%9F%D0%A0%D0%9E%D0%A6%D0%95%D0%A1%D0%A1%D0%90%20%D0%9F%D0%95%D0%A0%D0%95%D0%9D%D0%9E%D0%A1%D0%90%20%D0%9A%D0%9E%D0%9D%D0%A6%D0%95%D0%9D%D0%A2%D0%A0%D0%90%D0%A6%D0%98%D0%98%20%D0%92%20%20%D0%94%D0%92%D0%A3%D0%A5%D0%A1%D0%9B%D0%9E%D0%98%CC%86%D0%9D%D0%9E%D0%9C%20%D0%9A%D0%90%D0%9D%D0%90%D0%9B%D0%95%20%D0%9C%D0%95%D0%A2%D0%9E%D0%94%D0%9E%D0%9C%20%D0%A0%D0%95%D0%A8%D0%95%D0%A2%D0%9E%D0%A7%D0%9D%D0%AB%D0%A5%20%D0%A3%D0%A0%D0%90%D0%92%D0%9D%D0%95%D0%9D%D0%98%D0%98%CC%86%20%20%D0%91%D0%9E%D0%9B%D0%AC%D0%A6%D0%9C%D0%90%D0%9D%D0%90.%20%D0%9F%D0%B5%D1%80%D0%BC%D1%8C%202025.pdf"}      
+      ],
+      "conferenceLink": "https://conf.icmm.ru/event/39/overview",
+      "funfact": "2025 has been one of the most successful years (so far!) in my scientific career, and it started with a presentation at the poster session at ICMM. So I took a risk and, somewhat boldly, decided to showcase myself. 🤪"
+    },
+    {
+      "id": "talk14",
+      "title": "Актуальные проблемы механики",
+      "place": "Saint-Petersburg, 2025",
+      "img": "/images/piter_2025.png",
+      "presentations": [
+        { "title": "Mass Transfer Simulation in a Two-Layer Channel by the Lattice Bolztmann Method (poster)", "link": "https://storage.yandexcloud.net/presentations51294/%D0%9C%D0%BE%D0%B4%D0%B5%D0%BB%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D0%B0%20%D0%BC%D0%B0%D1%81%D1%81%D0%BE%D0%BF%D0%B5%D1%80%D0%B5%D0%BD%D0%BE%D1%81%D0%B0%20%D0%B2%20%D0%BD%D0%B0%D0%BA%D0%BB%D0%BE%D0%BD%D0%B5%D0%BD%D0%BD%D0%BE%D0%BC%20%D0%BF%D0%BE%D1%80%D0%B8%D1%81%D1%82%D0%BE%D0%BC%20%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B5.%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3%202025.pdf"},
+        { "title": "Linear Stability of Marangoni Convection in a Thin Film under Vertical Vibrations (spoken presentation) [In Russian]", "link": "https://storage.yandexcloud.net/presentations51294/%D0%9B%D0%B8%D0%BD%D0%B5%D0%B8%CC%86%D0%BD%D0%B0%D1%8F%20%D1%83%D1%81%D1%82%D0%BE%D0%B8%CC%86%D1%87%D0%B8%D0%B2%D0%BE%D1%81%D1%82%D1%8C%20%D0%BA%D0%BE%D0%BD%D0%B2%D0%B5%D0%BA%D1%86%D0%B8%D0%B8%20%D0%9C%D0%B0%D1%80%D0%B0%D0%BD%D0%B3%D0%BE%D0%BD%D0%B8%20%D0%B2%20%D1%82%D0%BE%D0%BD%D0%BA%D0%BE%D0%B8%CC%86%20%D0%BF%D0%BB%D0%B5%D0%BD%D0%BA%D0%B5%20%D0%BF%D1%80%D0%B8%20%D0%B2%D0%B5%D1%80%D1%82%D0%B8%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85%20%D0%B2%D0%B8%D0%B1%D1%80%D0%B0%D1%86%D0%B8%D1%8F%D1%85.%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3%202025.pdf"}      
+      ],
+      "conferenceLink": "https://apm-conf.spb.ru/",
+      "funfact": "At this conference, I was offered for the first time to join a research group completely unrelated to my place of study 🥳. However, I declined the offer)"
+    },
+    {
+      "id": "talk15",
+      "title": "I Уральский молодежный теплофизический семинар",
+      "place": "Ekaterinburg, 2025",
+      "img": "/images/ekat2025.png",
+      "presentations": [
+        { "title": "Numerical Simulation of Convection and Mass Transfer in a Porous Medium (spoken presentation) [In Russian]", "link": "https://storage.yandexcloud.net/presentations51294/%D0%A7%D0%B8%D1%81%D0%BB%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5%20%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%BA%D0%BE%D0%BD%D0%B2%D0%B5%D0%BA%D1%86%D0%B8%D0%B8%20%D0%B8%20%D0%BC%D0%B0%D1%81%D1%81%D0%BE%D0%BF%D0%B5%D1%80%D0%B5%D0%BD%D0%BE%D1%81%D0%B0%20%D0%B2%20%D0%BF%D0%BE%D1%80%D0%B8%D1%81%D1%82%D0%BE%D0%B8%CC%86%20%D1%81%D1%80%D0%B5%D0%B4%D0%B5.%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3%202025%20.pdf" }
+      ],
+      "funfact": "As always in Yekaterinburg, it was peaceful and nice.",
+      "conferenceLink": "https://conf.uran.ru/Default?cid=Umts"
+    }
+  ]
+
   },
   "contacts": "Contacts"
 }

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useTranslation } from "react-i18next";
 import './Talks.css';
 
-function Talks({ }) {
+function Talks() {
   const { t } = useTranslation();
   const [openId, setOpenId] = useState(null);
 
@@ -11,7 +11,6 @@ function Talks({ }) {
   };
 
   const talks = t('talks.items', { returnObjects: true });
-
 
   return (
     <section className="talks">
@@ -25,20 +24,8 @@ function Talks({ }) {
           >
             <div className="talks__header">
               <span className="talks__title-text">{talk.title}</span>
-              {' — '}
+              {'  '}
               <span className="talks__place">{talk.place}</span>
-
-              {/* {talk.conferenceLink && (
-                <a
-                  href={talk.conferenceLink}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="talks__conference-link"
-                  onClick={(e) => e.stopPropagation()}
-                >
-                  🌐
-                </a>
-              )} */}
             </div>
 
             {openId === talk.id && (
@@ -78,6 +65,20 @@ function Talks({ }) {
                   <p className="talks__funfact">
                     <strong>{t('talks.funfactLabel')}: </strong>{talk.funfact}
                   </p>
+                )}
+
+                {talk.conferenceLink && (
+                  <div className="talks__conference">
+                    <a
+                      href={talk.conferenceLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      onClick={(e) => e.stopPropagation()}
+                      className="talks__conference-link talks__conference-link_bottom"
+                    >
+                      🌐 {talk.conferenceLink || 'Сайт конференции'}
+                    </a>
+                  </div>
                 )}
               </div>
             )}

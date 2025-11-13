@@ -63,10 +63,26 @@
     ]
   },
   "talks": {
-    "title": "Talks",
+    "title": "Presentations",
+    "presentationLink": "Ссылка на презентацию",
+    "funfactLabel": "Смешной факт",
     "items": [
-      { "id": "talk1", "title": "Turbulence and films — Perm Conference, 2023" },
-      { "id": "talk2", "title": "Fluid flow models — Moscow Seminar, 2024" }
+      {
+        "id": "talk1",
+        "title": "«Турбулентность и плёнки»",
+        "place": "Конференция в Перми, 2023",
+        "description": "Доклад о моделировании турбулентных течений в тонких жидких плёнках.",
+        "img": "/images/turbulence.jpg",
+        "link": "https://example.com/talk1-presentation.pdf",
+        "funfact": "Презентация готовилась в поезде между Пермью и Екатеринбургом!"
+      },
+      {
+        "id": "talk20",
+        "title": "I Уральский молодежный теплофизический семинар",
+        "place": "Екатеринбург, 2025",
+        "img": "/images/flow-models.jpg",
+        "link": "https://example.com/talk2-presentation.pdf"
+      }
     ]
   },
   "contacts": "Contacts"

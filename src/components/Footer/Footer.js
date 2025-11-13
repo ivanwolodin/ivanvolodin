@@ -55,7 +55,7 @@ function Footer() {
       </div>
 
       <p className="footer__content">
-        © {year} {t('footer.text')}
+        {year} {t('footer.text')}
       </p>
     </footer>
   );

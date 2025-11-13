@@ -45,7 +45,7 @@ function Header() {
         <Link to="/" className={getLinkClass('/')}>{t("header.nav.home")} </Link>
         <Link to="/about-me" className={getLinkClass('/about-me')}>{t("header.nav.about")}</Link>
         <Link to="/publications" className={getLinkClass('/publications')}>{t("header.nav.publications")}</Link>
-        <Link to="/talk" className={getLinkClass('/talk')}>{t("header.nav.talks")}</Link>
+        <Link to="/presentations" className={getLinkClass('/presentations')}>{t("header.nav.talks")}</Link>
         <Link to="/contact" className={getLinkClass('/contact')}>{t("header.nav.contacts")}</Link>
       </nav>
 

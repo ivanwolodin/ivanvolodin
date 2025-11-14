@@ -6,12 +6,7 @@
   animation: fadeSlide 0.7s ease;
 }
 
-.header__controls {
-  display: flex;
-  align-items: center;
-  gap: 0.7rem;
-}
-
+.header__theme-btn,
 .header__sound-btn {
   background: none;
   border: none;
@@ -90,6 +85,14 @@
   width: 100%;
 }
 
+.header__controls-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  gap: 0.5rem;        
+}
+
+
 .header__icons {
   display: flex;
   justify-content: center;
@@ -167,6 +170,20 @@
 .header__theme-btn:hover,
 .header__lang-btn:hover {
   color: var(--accent);
+}
+
+/* Адаптивность: "прыгнуть" под subtitle */
+@media (max-width: 700px) {
+  .header__controls-wrapper {
+    order: 1; /* можно использовать flex-order, если нужно сместить */
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+
+  .header__icons {
+    justify-content: center;
+    width: 100%;
+  }
 }
 
 

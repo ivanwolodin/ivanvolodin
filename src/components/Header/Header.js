@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { useTranslation } from "react-i18next";
-import { Volume2, VolumeX, Sun, Moon } from 'lucide-react';
+import { Volume2, VolumeX } from 'lucide-react';
+import sunIcon from '../../assets/icons/day.png';
+import moonIcon from '../../assets/icons/night.png';
 import './Header.css';
 
 function Header({ soundEnabled, setSoundEnabled, theme, toggleTheme }) {
@@ -34,8 +36,7 @@ function Header({ soundEnabled, setSoundEnabled, theme, toggleTheme }) {
           <p className="header__subtitle">{t("header.position")}</p>
         </div>
 
-        {/* Правая часть — язык + звук */}
-        <div className="header__controls">
+        <div className="header__controls-wrapper">
           <div className="header__lang">
             <button
               className={`header__lang-btn ${i18n.language === "ru" ? "header__lang-btn_active" : ""}`}
@@ -52,19 +53,20 @@ function Header({ soundEnabled, setSoundEnabled, theme, toggleTheme }) {
             </button>
           </div>
 
-          {/* Кнопка звука */}
-          <button className="header__sound-btn" onClick={toggleSound} title="Sound on/off">
-            {soundEnabled ? <Volume2 size={20} /> : <VolumeX size={20} />}
-          </button>
+          <div className="header__icons">
+            <button className="header__sound-btn" onClick={toggleSound} title="Sound on/off">
+              {soundEnabled ? <Volume2 size={20} /> : <VolumeX size={20} />}
+            </button>
+            <button className="header__theme-btn" onClick={toggleTheme} title="Toggle theme">
+              {theme === "dark" ? (
+                <img src={sunIcon} alt="Sun" width={20} height={20} />
+              ) : (
+                <img src={moonIcon} alt="Moon" width={20} height={20} />
+              )}
+            </button>
+          </div>
         </div>
 
-        <button
-            className="header__theme-btn"
-            onClick={toggleTheme}
-            title="Toggle theme"
-        >
-          {theme === "dark" ? <Sun size={20} /> : <Moon size={20} />}
-        </button>
 
       </div>
 

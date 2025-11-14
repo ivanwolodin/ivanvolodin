@@ -69,7 +69,7 @@ function App() {
       <main className="app__content">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/publications" element={<Publications />} />
+          <Route path="/publications" element={<Publications soundEnabled={soundEnabled} />} />
           <Route path="/presentations" element={<Talks soundEnabled={soundEnabled} />} />
           <Route path="/about-me" element={<AboutMe />} />
           <Route path="/contact" element={<Contacts />} />

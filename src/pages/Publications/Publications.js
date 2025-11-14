@@ -1,12 +1,27 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { FaFilePdf } from 'react-icons/fa';
 import { useTranslation } from "react-i18next";
 
 import './Publications.css';
 
-function Publications() {
+function Publications({ soundEnabled }) {
   const [openId, setOpenId] = useState(null);
   const { t } = useTranslation();
+
+  const hoverSound = useRef(new Audio("/sounds/click2.mp3"));
+  const clickSound = useRef(new Audio("/sounds/click.mp3"));
+
+  const playClick = () => {
+    if (!soundEnabled) return;
+    clickSound.current.currentTime = 0;
+    clickSound.current.play();
+  };
+
+  const playHover = () => {
+    if (!soundEnabled) return;
+    hoverSound.current.currentTime = 0;
+    hoverSound.current.play();
+  };
   
   // Проверка якоря при заходе на страницу
   useEffect(() => {
@@ -20,6 +35,7 @@ function Publications() {
   }, []);
 
   const toggleOpen = (id) => {
+    playClick();
     setOpenId(openId === id ? null : id);
     // Обновляем URL
     window.history.replaceState(null, '', `#${id}`);
@@ -38,6 +54,7 @@ function Publications() {
             id={pub.id}
             className={`publications__item ${openId === pub.id ? 'publications__item_open' : ''}`}
             onClick={() => toggleOpen(pub.id)}
+            onMouseEnter={playHover}
           >
             <div className="publications__header">
               <span className="publications__title-text">{pub.title}</span>

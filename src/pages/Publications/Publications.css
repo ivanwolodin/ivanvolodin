@@ -1,64 +1,17 @@
 .publications {
-  max-width: 700px;
-  margin: 3rem auto;
-}
-
-.publications__title {
-  font-size: 1.8rem;
-  text-align: center;
-  margin-bottom: 1.5rem;
-}
-
-.publications__list {
-  list-style: none;
-  padding: 0;
-}
-
-.publications__item {
-  background-color: #fff;
-  margin-bottom: 0.8rem;
-  padding: 1rem;
-  border-radius: 8px;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
-  cursor: pointer;
-  transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.publications__item:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
-}
-
-.publications__header {
-  font-weight: 500;
-}
-
-.publications__journal {
-  font-style: italic;
-  color: #555;
-}
-
-.publications__description {
-  margin-top: 0.8rem;
-  font-size: 0.95rem;
-  color: #333;
-  line-height: 1.5;
-}
-
-.publications__item_open {
-  background-color: #f0f8ff;
-}
-
-.publications {
+  
   max-width: 800px;
-  margin: 0 auto;
+  margin: 3rem auto;
   padding: 2rem;
+  transition: color 0.3s, background-color 0.3s, box-shadow 0.3s;
+  color: var(--text-primary);
 }
 
 .publications__title {
   font-size: 1.8rem;
-  margin-bottom: 1rem;
   text-align: center;
+  margin-bottom: 1rem;
+  color: var(--text-primary);
 }
 
 .publications__list {
@@ -70,33 +23,37 @@
   margin-bottom: 1rem;
   padding: 1rem;
   border-radius: 12px;
-  background: #f8f9fa;
+  background: var(--card-bg);
   cursor: pointer;
   transition: all 0.3s ease;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
 }
 
 .publications__item:hover {
-  background: #eef1f5;
+  transform: translateY(-2px);
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  background: var(--card-bg-hover);
 }
 
 .publications__item_open {
-  background: #fff;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  background: var(--card-bg-active);
 }
 
 .publications__header {
   font-weight: 600;
-  color: #333;
+  color: var(--text-primary);
 }
 
 .publications__journal {
-  color: #777;
+  font-style: italic;
+  color: var(--text-secondary);
 }
 
 .publications__description,
 .publications__abstract {
   margin-top: 0.8rem;
-  color: #444;
+  color: var(--text-secondary);
   line-height: 1.5;
 }
 
@@ -108,7 +65,7 @@
 }
 
 .publications__doi {
-  color: #0056b3;
+  color: var(--accent);
   text-decoration: none;
 }
 
@@ -117,6 +74,6 @@
 }
 
 .publications__pdf {
-  color: #d9534f;
+  color: var(--danger);
   text-decoration: none;
 }

@@ -1,7 +1,45 @@
+:root {
+  --bg: #ffffff;
+  --bg-card: #ffffff;
+  --bg-hover: #f5f5f5;
+  --text: #222;
+  --text-secondary: #555;
+  --shadow: rgba(0, 0, 0, 0.06);
+  --accent: #007bff;
+
+  --text-primary: var(--text);
+  --card-bg: var(--bg-card);
+  --card-bg-hover: var(--bg-hover);
+  --card-bg-active: #eef1f5;
+  --danger: #d9534f;
+}
+
+[data-theme="dark"] {
+  --bg: #121212b0;
+  --bg-card: #1e1e1e;
+  --bg-hover: #2a2a2a;
+  --text: #e5e5e5;
+  --text-secondary: #faf2f2;
+  --shadow: rgba(255, 255, 255, 0.08);
+  --accent: #4da3ff;
+
+  --text-primary: var(--text);
+  --card-bg: var(--bg-card);
+  --card-bg-hover: var(--bg-hover);
+  --card-bg-active: #2b2b2b;
+  --danger: #ff6b6b;
+
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+
+/* Применяем ко всему сайту */
 body {
   margin: 0;
-  background-color: #f6f8fa;
-  color: #222;
+  background: var(--bg);
+  color: var(--text);
+  transition: background 0.3s, color 0.3s;
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   transition: background-color 0.3s ease;
 }

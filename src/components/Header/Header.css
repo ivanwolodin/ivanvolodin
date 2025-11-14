@@ -144,6 +144,31 @@
   font-weight: 600;
 }
 
+.header {
+  background: var(--bg-card);
+  box-shadow: 0 2px 8px var(--shadow);
+}
+
+.header__link {
+  color: var(--text);
+}
+
+.header__link_active {
+  color: var(--accent);
+}
+
+.header__sound-btn,
+.header__lang-btn,
+.header__theme-btn {
+  color: var(--text);
+}
+
+.header__sound-btn:hover,
+.header__theme-btn:hover,
+.header__lang-btn:hover {
+  color: var(--accent);
+}
+
 
 /* Адаптивность для меню */
 @media (max-width: 700px) {

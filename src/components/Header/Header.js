@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { useTranslation } from "react-i18next";
-import { Volume2, VolumeX } from 'lucide-react';
+import { Volume2, VolumeX, Sun, Moon } from 'lucide-react';
 import './Header.css';
 
-function Header({ soundEnabled, setSoundEnabled }) {
+function Header({ soundEnabled, setSoundEnabled, theme, toggleTheme }) {
+
   const location = useLocation();
   const { t, i18n } = useTranslation();
 
@@ -56,6 +57,14 @@ function Header({ soundEnabled, setSoundEnabled }) {
             {soundEnabled ? <Volume2 size={20} /> : <VolumeX size={20} />}
           </button>
         </div>
+
+        <button
+            className="header__theme-btn"
+            onClick={toggleTheme}
+            title="Toggle theme"
+        >
+          {theme === "dark" ? <Sun size={20} /> : <Moon size={20} />}
+        </button>
 
       </div>
 

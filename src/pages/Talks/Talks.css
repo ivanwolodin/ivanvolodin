@@ -9,7 +9,7 @@
   font-size: 2rem;
   text-align: center;
   margin-bottom: 1.5rem;
-  color: #222;
+  color: var(--text);
 }
 
 .talks__list {
@@ -19,8 +19,9 @@
 }
 
 .talks__item {
-  background: #fff;
   margin-bottom: 1rem;
+  background: var(--bg-card);
+  box-shadow: 0 2px 8px var(--shadow);
   padding: 1.2rem 1.4rem;
   border-radius: 12px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.06);
@@ -32,7 +33,7 @@
 .talks__item:hover {
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-  background: #fafafa;
+  background: var(--bg-hover);
 }
 
 .talks__header {
@@ -135,4 +136,16 @@
 .talks__conference-link_bottom:hover {
   color: #005fa3;
   transform: scale(1.05);
+}
+
+
+.talks__place,
+.talks__description,
+.talks__funfact,
+.talks__title-text {
+  color: var(--text-secondary);
+}
+
+.talks__presentation-link {
+  color: var(--accent);
 }

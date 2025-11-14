@@ -1,13 +1,29 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import { useTranslation } from "react-i18next";
 import './Talks.css';
 
-function Talks() {
+function Talks({ soundEnabled }) {
   const { t } = useTranslation();
   const [openId, setOpenId] = useState(null);
 
+  const hoverSound = useRef(new Audio("/sounds/click2.mp3"));
+  const clickSound = useRef(new Audio("/sounds/click.mp3"));
+  
+  const playClick = () => {
+    if (!soundEnabled) return;
+    clickSound.current.currentTime = 0;
+    clickSound.current.play();
+  };
+
   const toggleOpen = (id) => {
+    playClick();
     setOpenId(openId === id ? null : id);
+  };
+
+  const playHover = () => {
+    if (!soundEnabled) return;
+    hoverSound.current.currentTime = 0;
+    hoverSound.current.play();
   };
 
   const talks = t('talks.items', { returnObjects: true });
@@ -21,6 +37,7 @@ function Talks() {
             key={talk.id}
             className={`talks__item ${openId === talk.id ? 'talks__item_open' : ''}`}
             onClick={() => toggleOpen(talk.id)}
+            onMouseEnter={() => playHover()}
           >
             <div className="talks__header">
               <span className="talks__title-text">{talk.title}</span>

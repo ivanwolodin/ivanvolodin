@@ -77,3 +77,47 @@
   color: var(--danger);
   text-decoration: none;
 }
+
+.publications__more {
+  margin-top: 2rem;
+  padding: 1rem;
+  border-radius: 12px;
+  background: var(--card-bg);
+  box-shadow: 0 1px 6px rgba(0,0,0,0.05);
+}
+
+.publications__more-text {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: var(--text-primary);
+  margin-bottom: 15px;
+}
+
+.publications__more-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.publications__more-item {
+  margin-bottom: 0.5rem;
+}
+
+.publications__more-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--link-color);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.publications__more-link:hover {
+  color: var(--link-hover);
+  text-decoration: underline;
+}
+
+.publications__more-icon {
+  width: 20px;
+  height: 20px;
+}

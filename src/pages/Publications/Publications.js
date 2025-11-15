@@ -2,6 +2,11 @@ import React, { useState, useEffect, useRef } from 'react';
 import { FaFilePdf } from 'react-icons/fa';
 import { useTranslation } from "react-i18next";
 
+import elibraryIcon from '../../assets/icons/elibrary.png';
+import orcidIcon from '../../assets/icons/orcid.png';
+import researchGateIcon from '../../assets/icons/research_gate.png';
+import googleScholarIcon from '../../assets/icons/google_scholar.png'
+
 import './Publications.css';
 
 function Publications({ soundEnabled }) {
@@ -99,6 +104,58 @@ function Publications({ soundEnabled }) {
           </li>
         ))}
       </ul>
+      <div className="publications__more">
+        <p className="publications__more-text">
+          {t('publications.after_selected')}
+        </p>
+        <ul className="publications__more-list">
+          <li className="publications__more-item">
+            <a 
+              href="https://orcid.org/0000-0002-4315-956X" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="publications__more-link"
+            >
+              <img src={orcidIcon} alt="ORCID" className="publications__more-icon"/>
+              ORCID
+            </a>
+          </li>
+          <li className="publications__more-item">
+            <a 
+              href="https://www.researchgate.net/profile/Ivan-Volodin-3?ev=hdr_xprf" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="publications__more-link"
+            >
+              <img src={researchGateIcon} alt="ResearchGate" className="publications__more-icon"/>
+              ResearchGate
+            </a>
+          </li>
+          <li className="publications__more-item">
+            <a 
+              href="https://scholar.google.com/citations?hl=ru&user=l_hyd9EAAAAJ" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="publications__more-link"
+            >
+              <img src={googleScholarIcon} alt="Google Scholar" className="publications__more-icon"/>
+              Google Scholar
+            </a>
+          </li>
+          <li className="publications__more-item">
+            <a 
+              href="https://www.elibrary.ru/author_items.asp?authorid=1052825&pubrole=100&show_refs=1&pubcat=risc" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="publications__more-link"
+            >
+              <img src={elibraryIcon} alt="eLibrary" className="publications__more-icon"/>
+              eLibrary [In Russian]
+            </a>
+          </li>
+        </ul>
+      </div>
+
     </section>
   );
 }

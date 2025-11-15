@@ -17,7 +17,8 @@
     "text2": "On this site you can find my publications, talks, and projects."
   },
   "publications": {
-    "title": "Publications",
+    "title": "Selected publications",
+    "after_selected": "Not so many, but the last three were published in this year. Other papers can be found there:",
     "abstract": "Abstract",
     "items": [
     {

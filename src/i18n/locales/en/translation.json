@@ -234,5 +234,19 @@
   ]
 
   },
-  "contacts": "Contacts"
+  "contacts": "Contacts",
+  "contact_info": "Personal contacts",
+  "social_links": "Social Networks",
+  "references": "References",
+  "workplace_name": "Website of ICMM UB RAS",
+  "workplace_lab_page": "Lab page",
+  "workplace_personal_page": "Personal page",
+  "workplace_title": "Workplace",
+  "workplace_address": "ICMM Ural Branch of RAS — Laboratory of underground sequestration of carbon, Akademika Koroleva St., 1, Perm, Russia, 614013",
+  "alabuzhev_info": "Aleksei Alabuzhev: scientific supervisor, research associate at the Laboratory of Computational Hydrodynamics, IMSS Ural Branch of RAS - Akademika Koroleva St., 1, Perm, Perm Krai, 614013",
+  "alabuzhev_page": "ICMM Personal Page",
+  "goldobin_info": "Denis Goldobin: head of the Laboratory of underground sequestration of carbon, IMSS Ural Branch of RAS - Akademika Koroleva St., 1, Perm, Russia, 614013",
+  "goldobin_page": "Personal Page",
+  "demin_info": "Vitaly Demin: head of the Department of Theoretical Physics, PGNIU - Bukireva St., 15, Perm, Russia, 614068",
+  "demin_page": "Department Website Page"
 }

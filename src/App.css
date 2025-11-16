@@ -12,6 +12,12 @@
   --card-bg-hover: var(--bg-hover);
   --card-bg-active: #eef1f5;
   --danger: #d9534f;
+
+  --contacts-bg: #f8f9fa;
+  --contacts-text: #222;
+  --contacts-link: #007acc;
+  --contacts-link-hover: #005f99;
+  --contacts-accent: #007acc;
 }
 
 [data-theme="dark"] {
@@ -28,6 +34,13 @@
   --card-bg-hover: var(--bg-hover);
   --card-bg-active: #2b2b2b;
   --danger: #ff6b6b;
+
+  --contacts-bg: #121212;
+  --contacts-text: #e0e0e0;
+  --contacts-link: #4ea6ff;
+  --contacts-link-hover: #82c0ff;
+  --contacts-accent: #4ea6ff;
+  --contacts-card-bg: #1e1e1e;
 
   background-color: var(--bg);
   color: var(--text);

@@ -98,13 +98,13 @@ function Contacts() {
             <li className="contacts__item">
               <span className="contacts__label">GitHub:</span>{' '}
               <a className="contacts__link" href="https://github.com/ivanwolodin1" target="_blank" rel="noopener noreferrer">
-                GitHub
+                ivanwolodin1
               </a>
             </li>
             <li className="contacts__item">
               <span className="contacts__label">Lichess:</span>{' '}
               <a className="contacts__link" href="https://lichess.org/@/ivanwolodin" target="_blank" rel="noopener noreferrer">
-                Lichess Profile
+                ivanwolodin
               </a>
             </li>
           </ul>

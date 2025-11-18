@@ -16,6 +16,16 @@
     "text1": "I explore physical phenomena and create software solutions for modeling and data analysis.",
     "text2": "On this site you can find my publications, talks, and projects."
   },
+  "about_me": {
+    "title": "About Me",
+    "intro": "Hello! My name is Ivan Volodin. I work as a research scientist in the Laboratory of underground sequestration of carbon at the Institute of Continuous Media Mechanics, Ural Branch of the Russian Academy of Sciences.",
+    "research": "My scientific interests include stability problems of ultrathin films with free interfaces in vibrational fields, solving evolutionary problems using lattice Boltzmann equations, as well as tackling numerical tasks with Python libraries such as",
+    "phd": "Currently, the main focus of my work is PhD thesis. Some of the tasks required for this have already been solved and published in Q2-level journals.",
+    "challenge": "One of the most interesting scientific challenges at the moment is trying to bridge the gap between evolutionary non-isothermal problems for ultrathin films with free interfaces in vibrational fields and the lattice Boltzmann equation method.",
+    "software": "Apart from my scientific career, I have spent a significant amount of time in commercial software development. I have worked as a backend developer (Python, Flask, FastAPI), and occasionally tackled frontend tasks (ReactJS).",
+    "chess": "I also hold a FIDE Master title in chess. I was the Russian under-16 champion in 2009 and played for SK Heidelberg Handschuhsheim (2013–2014).",
+    "website": "This website is my personal project, where you can find my publications and presentations."
+  },
   "publications": {
     "title": "Selected publications",
     "after_selected": "Not so many, but the last three were published in this year. Other papers can be found there:",
@@ -242,11 +252,11 @@
   "workplace_lab_page": "Lab page",
   "workplace_personal_page": "Personal page",
   "workplace_title": "Workplace",
-  "workplace_address": "ICMM Ural Branch of RAS — Laboratory of underground sequestration of carbon, Akademika Koroleva St., 1, Perm, Russia, 614013",
-  "alabuzhev_info": "Aleksei Alabuzhev: scientific supervisor, research associate at the Laboratory of Computational Hydrodynamics, IMSS Ural Branch of RAS - Akademika Koroleva St., 1, Perm, Perm Krai, 614013",
+  "workplace_address": "Institute of Continuous Media Mechanics Ural Branch of RAS — Laboratory of underground sequestration of carbon, Akademika Koroleva St., 1, Perm, Russia, 614013",
+  "alabuzhev_info": "Aleksei Alabuzhev: scientific supervisor, research associate at the Laboratory of Computational Hydrodynamics, IMSS Ural Branch of RAS - Akademika Koroleva St., 1, Perm, Russia, 614013",
   "alabuzhev_page": "ICMM Personal Page",
   "goldobin_info": "Denis Goldobin: head of the Laboratory of underground sequestration of carbon, IMSS Ural Branch of RAS - Akademika Koroleva St., 1, Perm, Russia, 614013",
   "goldobin_page": "Personal Page",
-  "demin_info": "Vitaly Demin: head of the Department of Theoretical Physics, PGNIU - Bukireva St., 15, Perm, Russia, 614068",
+  "demin_info": "Vitaly Demin: head of the Department of Theoretical Physics, PNSRU - Bukireva St., 15, Perm, Russia, 614068",
   "demin_page": "Department Website Page"
 }

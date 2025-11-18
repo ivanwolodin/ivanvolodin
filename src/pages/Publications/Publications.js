@@ -11,10 +11,12 @@ import './Publications.css';
 
 function Publications({ soundEnabled }) {
   const [openId, setOpenId] = useState(null);
+  const CDN = process.env.REACT_APP_CDN;
+
   const { t } = useTranslation();
 
-  const hoverSound = useRef(new Audio("/sounds/click2.mp3"));
-  const clickSound = useRef(new Audio("/sounds/click.mp3"));
+  const hoverSound = useRef(new Audio(`${CDN}/sounds/click2.mp3`));
+  const clickSound = useRef(new Audio(`${CDN}/sounds/click.mp3`));
 
   const playClick = () => {
     if (!soundEnabled) return;

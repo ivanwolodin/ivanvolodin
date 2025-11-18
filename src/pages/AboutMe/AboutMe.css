@@ -1,94 +1,171 @@
 .about-me {
-  padding: 40px 20px;
-  background-color: var(--card-bg);
-  transition: background-color 0.3s, color 0.3s;
+	padding: 40px 20px;
+	background-color: var(--card-bg);
+	transition: background-color 0.3s, color 0.3s;
 }
 
 .about-me__container {
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-wrap: wrap;
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+.about-me__header {
   display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 30px;
-  max-width: 900px;
-  margin: 0 auto;
+  flex-direction: row;
+  gap: 25px;
+}
+
+.about-me__main{
+  display: flex;
+  flex-direction: column;
 }
 
 .about-me__image-wrapper {
-  flex: 0 1 40%;
-  display: flex;
-  justify-content: center;
-  min-width: 220px;
+	flex: 0 1 40%;
+	display: flex;
+	justify-content: center;
+	min-width: 220px;
 }
 
 .about-me__image {
-  width: 100%;
-  max-width: 500px; 
-  aspect-ratio: 1/1;
-  object-fit: cover;
-  border-radius: 50%;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-}
-.about-me__content {
-  flex: 1 1 250px; /* минимальная ширина 250px, может расширяться */
+	width: 320px; 
+	height: 320px;
+	object-fit: cover;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  align-self: center;
+	border-radius: 50%;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+
+.about-me__cv-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  color: var(--text-primary); 
+  transition: color 0.3s;
+}
+
+.about-me__cv-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.about-me__cv-text {
+  font-weight: 500;
+  color: var(--text-color);
+}
+
+.about-me__cv-link:hover {
+  transform: scale(1.02);
+}
+
+.about-me__cv-icon {
+  width: 54px;
+  height: 54px;
+}
+
+.about-me__content {
+	flex: 1 1 250px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 .about-me__title {
-  font-size: 32px;
-  margin-bottom: 20px;
-  font-weight: 600;
-  color: var(--text-primary);
+	font-size: 32px;
+	margin-bottom: 20px;
+	font-weight: 600;
+	color: var(--text-primary);
 }
 
 .about-me__text {
-  font-size: 18px;
-  line-height: 1.6;
-  color: var(--text-secondary);
-  margin-bottom: 15px;
+	font-size: 18px;
+	line-height: 1.6;
+	color: var(--text-secondary);
+	margin-bottom: 15px;
 }
 
 /* --- Dark theme --- */
 body.dark .about-me {
-  background-color: #100e0e;
+	background-color: #100e0e;
 }
 
 body.dark .about-me__title {
-  color: #f2f2f2;
+	color: #f2f2f2;
 }
 
 body.dark .about-me__text {
-  color: #cccccc;
+	color: #cccccc;
 }
 
 body.dark .about-me__image {
-  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.05);
+	box-shadow: 0 4px 12px rgba(255, 255, 255, 0.05);
 }
-/* 📱 Адаптивность для мобильных устройств */
-@media (max-width: 600px) {
-  .about-me__container {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
 
+.about-me__link {
+  color: var(--contacts-link);
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.about-me__link:hover {
+  color: var(--contacts-link-hover);
+  text-decoration: underline;
+}
+
+@media (max-width: 900px) {
   .about-me__image {
-    max-width: 80vw; /* картинка подстраивается под экран */
+    width: 270px; 
+    height: 270px;
+  }
+}
+
+@media (max-width: 700px) {
+  .about-me__image {
+    width: 230px; 
+    height: 230px;
+  }
+}
+
+@media (max-width: 600px) {
+  .about-me__image {
+    width: 330px; 
+    height: 330px;
   }
 
-  .about-me__title {
-    font-size: 28px;
+  .about-me__header{
+    flex-direction: column;
+    gap: 0;
   }
 
-  .about-me__text {
-    font-size: 16px;
-  }
+	.about-me__container {
+		flex-direction: column;
+		align-items: center;
+    gap: 0;
+	}
+
+	.about-me__title {
+		font-size: 28px;
+	}
+
+	.about-me__text {
+		font-size: 16px;
+	}
 }
 
 @media (max-width: 450px) {
-  .about-me__image {
-    max-width: 70vw;
-  }
+	.about-me__image {
+		width: min(70vw, 220px);
+		height: min(70vw, 220px);
+	}
 }

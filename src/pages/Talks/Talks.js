@@ -6,8 +6,10 @@ function Talks({ soundEnabled }) {
   const { t } = useTranslation();
   const [openId, setOpenId] = useState(null);
 
-  const hoverSound = useRef(new Audio("/sounds/click2.mp3"));
-  const clickSound = useRef(new Audio("/sounds/click.mp3"));
+  const CDN = process.env.REACT_APP_CDN;
+
+  const hoverSound = useRef(new Audio(`${CDN}/sounds/click2.mp3`));
+  const clickSound = useRef(new Audio(`${CDN}/sounds/click.mp3`));
   
   const playClick = () => {
     if (!soundEnabled) return;
@@ -53,7 +55,7 @@ function Talks({ soundEnabled }) {
 
                 {talk.img && (
                   <img
-                    src={talk.img}
+                    src={`${CDN}${talk.img}`}
                     alt={talk.title}
                     className="talks__image"
                     onClick={(e) => e.stopPropagation()}

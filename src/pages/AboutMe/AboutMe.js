@@ -27,7 +27,7 @@ function AboutMe() {
                 </p>
                 <div className="about-me__cv-wrapper">
                   <a
-                    href="/path/to/CV.pdf"
+                    href="https://storage.yandexcloud.net/volodin-cv/CV%20Ivan%20Volodin.pdf"
                     className="about-me__cv-link"
                     target="_blank"
                     rel="noopener noreferrer"

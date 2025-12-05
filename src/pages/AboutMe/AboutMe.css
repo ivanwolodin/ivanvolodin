@@ -81,10 +81,10 @@
 }
 
 .about-me__title {
-	font-size: 32px;
-	margin-bottom: 20px;
-	font-weight: 600;
-	color: var(--text-primary);
+	font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: var(--text-primary);
 }
 
 .about-me__text {

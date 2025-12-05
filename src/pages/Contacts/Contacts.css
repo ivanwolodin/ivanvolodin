@@ -12,12 +12,10 @@
 }
 
 .contacts__title {
-  font-size: 36px;
-  font-weight: 700;
-  margin-bottom: 30px;
+  font-size: 1.8rem;
   text-align: center;
-  color: var(--contacts-text);
-
+  margin-bottom: 1rem;
+  color: var(--text-primary);
 }
 
 .contacts__section {

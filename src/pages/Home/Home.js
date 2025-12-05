@@ -34,13 +34,13 @@ function Home() {
 
       <p className="home__text">{t("home.freedom")}</p>
 
-      <div className="home__image-container">
+      {/* <div className="home__image-container">
         <img 
           src={macbook}
           alt="Рабочее место с ноутбуком" 
-          className="home__image" 
+          className="home__image home__image--small"
         />
-      </div>
+      </div> */}
 
       <p className="home__text">{t("home.final")}</p>
 
@@ -48,7 +48,7 @@ function Home() {
         <img 
           src={smoking} 
           alt="Винтажная курительная трубка" 
-          className="home__image" 
+          className="home__image home__image--tiny"
         />
       </div>
 

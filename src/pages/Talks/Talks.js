@@ -1,18 +1,18 @@
 import React, { useState, useRef } from 'react';
 import { useTranslation } from "react-i18next";
+
 import './Talks.css';
 
 function Talks({ soundEnabled }) {
   const { t } = useTranslation();
   const [openId, setOpenId] = useState(null);
 
-  const CDN = process.env.REACT_APP_CDN;
+  const hoverSound = useRef(new Audio('/sounds/click2.mp3'));
+  const clickSound = useRef(new Audio('/sounds/click.mp3'));
 
-  const hoverSound = useRef(new Audio(`${CDN}/sounds/click2.mp3`));
-  const clickSound = useRef(new Audio(`${CDN}/sounds/click.mp3`));
-  
   const playClick = () => {
     if (!soundEnabled) return;
+
     clickSound.current.currentTime = 0;
     clickSound.current.play();
   };
@@ -24,38 +24,52 @@ function Talks({ soundEnabled }) {
 
   const playHover = () => {
     if (!soundEnabled) return;
+
     hoverSound.current.currentTime = 0;
     hoverSound.current.play();
   };
 
-  const talks = t('talks.items', { returnObjects: true });
+  const talks = t('talks.items', {
+    returnObjects: true
+  });
 
   return (
     <section className="talks">
-      <h2 className="talks__title">{t('talks.title')}</h2>
+      <h2 className="talks__title">
+        {t('talks.title')}
+      </h2>
+
       <ul className="talks__list">
         {talks.slice().reverse().map(talk => (
           <li
             key={talk.id}
-            className={`talks__item ${openId === talk.id ? 'talks__item_open' : ''}`}
+            className={`talks__item ${
+              openId === talk.id ? 'talks__item_open' : ''
+            }`}
             onClick={() => toggleOpen(talk.id)}
-            onMouseEnter={() => playHover()}
+            onMouseEnter={playHover}
           >
             <div className="talks__header">
-              <span className="talks__title-text">{talk.title}</span>
+              <span className="talks__title-text">
+                {talk.title}
+              </span>
               {'  '}
-              <span className="talks__place">{talk.place}</span>
+              <span className="talks__place">
+                {talk.place}
+              </span>
             </div>
 
             {openId === talk.id && (
               <div className="talks__details">
                 {talk.description && (
-                  <p className="talks__description">{talk.description}</p>
+                  <p className="talks__description">
+                    {talk.description}
+                  </p>
                 )}
 
                 {talk.img && (
                   <img
-                    src={`${CDN}${talk.img}`}
+                    src={talk.img}
                     alt={talk.title}
                     className="talks__image"
                     onClick={(e) => e.stopPropagation()}
@@ -82,7 +96,10 @@ function Talks({ soundEnabled }) {
 
                 {talk.funfact && (
                   <p className="talks__funfact">
-                    <strong>{t('talks.funfactLabel')}: </strong>{talk.funfact}
+                    <strong>
+                      {t('talks.funfactLabel')}:
+                    </strong>{' '}
+                    {talk.funfact}
                   </p>
                 )}
 
@@ -95,7 +112,7 @@ function Talks({ soundEnabled }) {
                       onClick={(e) => e.stopPropagation()}
                       className="talks__conference-link talks__conference-link_bottom"
                     >
-                      🌐 {talk.conferenceLink || 'Сайт конференции'}
+                      🌐 {talk.conferenceLink}
                     </a>
                   </div>
                 )}

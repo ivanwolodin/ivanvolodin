@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/personal-site/static/css/main.1c4b7d20.css",
-    "main.js": "/personal-site/static/js/main.1789960a.js",
+    "main.js": "/personal-site/static/js/main.24a223a2.js",
     "static/media/icmm.png": "/personal-site/static/media/icmm.ff8c1207eeceac8b723a.png",
     "static/media/space.png": "/personal-site/static/media/space.ae2c895f71de9ab2b1e7.png",
     "static/media/athens_school.png": "/personal-site/static/media/athens_school.ce265b4a302e370e50dd.png",
@@ -14,10 +14,10 @@
     "static/media/pdf.png": "/personal-site/static/media/pdf.46de44589ccd9c856deb.png",
     "index.html": "/personal-site/index.html",
     "main.1c4b7d20.css.map": "/personal-site/static/css/main.1c4b7d20.css.map",
-    "main.1789960a.js.map": "/personal-site/static/js/main.1789960a.js.map"
+    "main.24a223a2.js.map": "/personal-site/static/js/main.24a223a2.js.map"
   },
   "entrypoints": [
     "static/css/main.1c4b7d20.css",
-    "static/js/main.1789960a.js"
+    "static/js/main.24a223a2.js"
   ]
 }

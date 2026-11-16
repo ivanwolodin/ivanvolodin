@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/personal-site/static/css/main.1c4b7d20.css",
+    "main.js": "/personal-site/static/js/main.1789960a.js",
+    "static/media/icmm.png": "/personal-site/static/media/icmm.ff8c1207eeceac8b723a.png",
+    "static/media/space.png": "/personal-site/static/media/space.ae2c895f71de9ab2b1e7.png",
+    "static/media/athens_school.png": "/personal-site/static/media/athens_school.ce265b4a302e370e50dd.png",
+    "static/media/macbook.png": "/personal-site/static/media/macbook.d76aef42b328ba680979.png",
+    "static/media/smoking.png": "/personal-site/static/media/smoking.5d8572f5b2f7dd3c6b47.png",
+    "static/media/IV.jpeg": "/personal-site/static/media/IV.b2dc73d14f21091842ce.jpeg",
+    "static/media/elibrary.png": "/personal-site/static/media/elibrary.d6a39c8b3f351865554e.png",
+    "static/media/night.png": "/personal-site/static/media/night.a19e3b93b71ed46b3178.png",
+    "static/media/day.png": "/personal-site/static/media/day.461c9c41e7fd227fd281.png",
+    "static/media/pdf.png": "/personal-site/static/media/pdf.46de44589ccd9c856deb.png",
+    "index.html": "/personal-site/index.html",
+    "main.1c4b7d20.css.map": "/personal-site/static/css/main.1c4b7d20.css.map",
+    "main.1789960a.js.map": "/personal-site/static/js/main.1789960a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1c4b7d20.css",
+    "static/js/main.1789960a.js"
+  ]
+}

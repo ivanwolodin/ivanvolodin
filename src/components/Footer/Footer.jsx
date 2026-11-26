@@ -16,7 +16,7 @@ function Footer() {
       <div className="footer__content">
         <div className="footer__icons">
           <a
-            href="https://github.com/ivanwolodin/ivanvolodin"
+            href="https://github.com/ivanwolodin"
             target="_blank"
             rel="noreferrer"
             title="GitHub"
